@@ -8,18 +8,8 @@ url: "http://keiththerobot.uk" # the base hostname & protocol for your site
 twitter_username: davedude0
 github_username:  davedude0
 
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+highlighter: pygments
+encoding: utf-8
 
-# Permalinks
-permalink:        pretty
-relative_permalinks: true
-
-paginate:         5
-
-# Custom vars
-version:          2.1.0
-
-github:
-  repo:           https://github.com/poole/hyde
+# Build settings
+markdown: kramdown

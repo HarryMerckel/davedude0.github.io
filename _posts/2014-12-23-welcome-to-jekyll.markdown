@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title:  "The first post on the website!"
 date:   2014-12-23 12:28:02
 categories: jekyll update

@@ -1,5 +1,6 @@
 # Site settings
 title: K.E.I.T.H.
+tagline: Home
 email: harrymerckel@yahoo.co.uk
 description: > # this means to ignore newlines until "baseurl:"
   A blog about K.E.I.T.H., a Raspberry Pi powered robot made by Harry and Andy Merckel.

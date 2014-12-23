@@ -1,0 +1,14 @@
+---
+layout: page
+title: Gallery
+---
+
+<p class="message">
+  This is simply a gallery of images of K.E.I.T.H. and anything else on this website.
+</p>
+
+![placeholder](http://placehold.it/800x400 "Large example image")
+![placeholder](http://placehold.it/400x200 "Medium example image")
+![placeholder](http://placehold.it/200x200 "Small example image")
+! (/images/sidev5.jpg "Side-on view of K.E.I.T.H. MK5")
+! (/images/frontv5.jpg "Front-on view of K.E.I.T.H. MK5")

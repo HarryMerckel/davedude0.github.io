@@ -8,10 +8,17 @@ title: Home
    <!-- add this section to put sticky posts on page 1 -->
    {% if paginator.page == 1 %}
       {% for post in site.categories.sticky %}
-      {% assign content = post.content %}
-      <article>
-         {% include article.html %}
-      </article>
+         <div class="post">
+            <h1 class="post-title">
+               <a href="{{ post.url }}">
+                  {{ post.title }}
+               </a>
+            </h1>
+            
+            <span class="post-date">{{ post.date | date_to_string }}</span>
+            
+            {{ post.content }}
+         </div>
       {% endfor %}
    {% endif %}
    {% for post in paginator.posts %}
@@ -23,10 +30,17 @@ title: Home
          {% endif %}
       {% endfor %}
       {% unless sticky %} <!-- only show the article if it is NOT sticky -->
-         {% assign content = post.content %}
-         <article>
-            {% include article.html %}
-         </article>
+         <div class="post">
+            <h1 class="post-title">
+               <a href="{{ post.url }}">
+                  {{ post.title }}
+               </a>
+            </h1>
+            
+            <span class="post-date">{{ post.date | date_to_string }}</span>
+            
+            {{ post.content }}
+            </div>
       {% endunless %}
    {% endfor %} 
 </div>

@@ -18,6 +18,8 @@ title: Home
             <span class="post-date">{{ post.date | date_to_string }} - sticky</span>
             
             {{ post.content }}
+            
+            Categories - {{ post.categories }}
          </div>
       {% endfor %}
    {% endif %}
@@ -40,6 +42,8 @@ title: Home
             <span class="post-date">{{ post.date | date_to_string }}</span>
             
             {{ post.content }}
+            
+            Categories - {{ post.categories }}
             </div>
       {% endunless %}
    {% endfor %} 

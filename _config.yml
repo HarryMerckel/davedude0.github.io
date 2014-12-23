@@ -3,7 +3,7 @@ title: K.E.I.T.H.
 email: harrymerckel@yahoo.co.uk
 description: > # this means to ignore newlines until "baseurl:"
   A blog about K.E.I.T.H., a Raspberry Pi powered robot made by Harry and Andy Merckel.
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "http://keiththerobot.uk" # the base hostname & protocol for your site
 twitter_username: davedude0
 github_username:  davedude0

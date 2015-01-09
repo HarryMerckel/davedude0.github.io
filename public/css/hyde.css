@@ -175,6 +175,15 @@ a.sidebar-nav-item:focus {
  * within blog posts. To use, add the class of your choosing to the `body`.
  */
 
+/* Solarized00 */
+.theme-base-solar .sidebar {
+  background-color: #002b36;
+}
+.theme-base-solar .content a,
+.theme-base-solar .related-posts li a:hover {
+  color: #002b36;
+}
+
 /* Base16 (http://chriskempson.github.io/base16/#default) */
 
 /* Red */

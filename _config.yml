@@ -3,7 +3,8 @@ title: K·E·I·T·H
 tagline: Home
 email: harrymerckel@yahoo.co.uk
 description: > # this means to ignore newlines until "baseurl:"
-  A blog about K·E·I·T·H, a Raspberry Pi powered robot made by Harry and Andy Merckel.
+  KEITH, a Raspberry Pi powered robot programmed and made by Harry and Andy Merckel.
+  Kinetic Electronic Interactive Tracked Hardware.
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "http://keiththerobot.uk" # the base hostname & protocol for your site
 twitter_username: davedude0

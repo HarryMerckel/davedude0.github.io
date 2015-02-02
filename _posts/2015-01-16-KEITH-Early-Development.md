@@ -1,7 +1,7 @@
 ---
 layout: post
 title: KEITH MK1
-categories: [KEITH,hidden]
+categories: [KEITH]
 ---
 
 ## KEITH's Early Development

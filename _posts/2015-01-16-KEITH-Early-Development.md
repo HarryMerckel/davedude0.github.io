@@ -14,7 +14,7 @@ Nothing too complicated happened at this stage of development but programming st
 The biggest problem we had with this was just that - it was fairly accurate, and due to the non-real-time nature of the Raspberry Pi we sometimes had some hugely anomalous results. To circumnavigate this particular problem, later in development I added a rolling median, so any bad results would be filtered out as either too high or too low.
 
 MK1a had only one large change - KEITH gained an eye! I had an official Raspberry Pi camera lying around, so I decided to stick it on with some masking tape. It took a while to get working properly, but eventually I had an MJPEG stream 'working' at about 2fps...
-![KEITH MK1a](http://keiththerobot.uk/images/MK1a.JPG "KEITH MK1a")
+![KEITH MK1a](http://keiththerobot.uk/images/MK1a.jpg "KEITH MK1a")
 
 ## KEITH - Starting to grow up
 

@@ -4,7 +4,7 @@ title: Gallery
 ---
 
 <p class="message">
-  This is simply a gallery of images of K.E.I.T.H. and anything else on this website.
+  This is simply a gallery of images of KEITH and anything else I post on this website, in a mostly chronological order.
 </p>
 
 ![KEITH MK1](http://keiththerobot.uk/images/MK1.JPG "KEITH MK1")

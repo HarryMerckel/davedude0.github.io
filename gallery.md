@@ -14,7 +14,7 @@ title: Gallery
 ![KEITH MK4](http://keiththerobot.uk/images/MK4.JPG "KEITH MK4")
 ![KEITH MK4 Chassis](http://keiththerobot.uk/images/MK4-shell.JPG "KEITH MK4 Chassis")
 ![KEITH MK4 part layout](http://keiththerobot.uk/images/MK4-parts.JPG "KEITH MK4 part layout")
-![KEITH MK4 side schematic](http://keiththerobot.uk/images/MK4-schematic.JPG "KEITH MK4 side schematic")
+![KEITH MK4 side schematic](http://keiththerobot.uk/images/Mk4-schematic.JPG "KEITH MK4 side schematic")
 ![KEITH MK4 front sensors](http://keiththerobot.uk/images/MK4cameraUltrasonics.JPG "KEITH MK4 front sensors")
 ![Capacitance switch](http://keiththerobot.uk/images/capacitance.JPG "Capacitance switch")
 ![Wheel encoder](http://keiththerobot.uk/images/encoder.JPG "Wheel encoder")

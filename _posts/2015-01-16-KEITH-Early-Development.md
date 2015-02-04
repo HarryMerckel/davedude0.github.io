@@ -4,7 +4,7 @@ title: KEITH's Development
 categories: [KEITH]
 ---
 
-## KEITH - A little baby robot...
+## A little baby robot...
 
 KEITH MK1 started out as a Raspberry Pi with a PiRoCon motor control board, a HC-SR04 ultrasonic module, two cheap 6v DC motors, an RC car battery and a Tamiya track set, base board and double gearbox. (I will insert links to parts and prices here)
 ![KEITH MK1](http://keiththerobot.uk/images/MK1.JPG "KEITH MK1")
@@ -16,10 +16,14 @@ The biggest problem we had with this was just that - it was fairly accurate, and
 MK1a had only one large change - KEITH gained an eye! I had an official Raspberry Pi camera lying around, so I decided to stick it on with some masking tape. It took a while to get working properly, but eventually I had an MJPEG stream 'working' at about 2fps...
 ![KEITH MK1a](http://keiththerobot.uk/images/MK1a.jpg "KEITH MK1a")
 
-## KEITH - Starting to grow up
+## Starting to grow up
 
 With KEITH MK2 came a complete new track configuration, which involved moving the gearbox on top of the baseplate. Along with that, a block of wood was added so the battery was balanced. All this time it was still held together with velcro...
 ![KEITH MK2](http://keiththerobot.uk/images/MK2.JPG "KEITH MK2")
+
+## Some new clothes
+
+MK3 was the first iteration of KEITH with a proper chassis, which was made out of 3mm plywood and cut with a jigsaw... Needless to say, it wasn't quite a masterpiece yet but it certain;y did the job until we could get the MK4 chassis laser cut.
 
 
 <a href="http://www.raspberrypi.org">Raspberry Pi</a> is a trademark of the Raspberry Pi Foundation.

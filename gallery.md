@@ -5,27 +5,28 @@ title: Gallery
 
 <p class="message">
   This is simply a gallery of images of KEITH and anything else I post on this website. The most recent or relevant images will likely be at the top.
+  Click the images for much higher quality (and 10 to 15 times larger file size!) images.
 </p>
 
 ## Current KEITH MK5 Images
 KEITH MK5
 [![KEITH MK5](http://keiththerobot.uk/images/DSC04940-adjusted-web.jpg "KEITH MK5")](http://keiththerobot.uk/images/DSC04940-adjusted.jpg)
 KEITH MK5 Side
-![KEITH MK5 side](http://keiththerobot.uk/images/DSC04931.JPG "KEITH MK5 side")
+[![KEITH MK5 side](http://keiththerobot.uk/images/DSC04931-web.jpg "KEITH MK5 side")](http://keiththerobot.uk/images/DSC04931.JPG)
 KEITH MK5 Side
-![KEITH MK5 side](http://keiththerobot.uk/images/DSC04929.JPG "KEITH MK5 side")
+[![KEITH MK5 side](http://keiththerobot.uk/images/DSC04929-web.jpg "KEITH MK5 side")](http://keiththerobot.uk/images/DSC04929.JPG)
 KEITH MK5 Back
-![KEITH MK5 back](http://keiththerobot.uk/images/DSC04938-adjusted.jpg "KEITH MK5 back")
+[![KEITH MK5 back](http://keiththerobot.uk/images/DSC04938-adjusted-web.jpg "KEITH MK5 back")](http://keiththerobot.uk/images/DSC04938-adjusted.jpg)
 KEITH MK5 Back
-![KEITH MK5 back](http://keiththerobot.uk/images/DSC04937-adjusted.jpg "KEITH MK5 back")
+[![KEITH MK5 back](http://keiththerobot.uk/images/DSC04937-adjusted-web.jpg "KEITH MK5 back")](http://keiththerobot.uk/images/DSC04937-adjusted.jpg)
 KEITH MK5 Front
-![KEITH MK5 front](http://keiththerobot.uk/images/DSC04932-adjusted.jpg "KEITH MK5 front")
+[![KEITH MK5 front](http://keiththerobot.uk/images/DSC04932-adjusted-web.jpg "KEITH MK5 front")](http://keiththerobot.uk/images/DSC04932-adjusted.jpg)
 KEITH MK5 Golf Module
-![KEITH MK5 golf module](http://keiththerobot.uk/images/DSC04942-adjusted.jpg "KEITH MK5 golf module")
+[![KEITH MK5 golf module](http://keiththerobot.uk/images/DSC04942-adjusted-web.jpg "KEITH MK5 golf module")](http://keiththerobot.uk/images/DSC04942-adjusted.jpg)
 KEITH MK5 Sumo Module
-![KEITH MK5 sumo module](http://keiththerobot.uk/images/DSC04941-adjusted.jpg "KEITH MK5 sumo module")
+[![KEITH MK5 sumo module](http://keiththerobot.uk/images/DSC04941-adjusted-web.jpg "KEITH MK5 sumo module")](http://keiththerobot.uk/images/DSC04941-adjusted.jpg)
 PiFi KEITH
-![PiFi - KEITH](http://keiththerobot.uk/images/DSC04927-adjusted.jpg "PiFi - KEITH")
+[![PiFi - KEITH](http://keiththerobot.uk/images/DSC04927-adjusted-web.jpg "PiFi - KEITH")](http://keiththerobot.uk/images/DSC04927-adjusted.jpg)
 
 ## KEITH Development Images
 <p class="message">In a mostly chronological order!</p>

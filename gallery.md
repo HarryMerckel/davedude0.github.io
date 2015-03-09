@@ -10,7 +10,7 @@ title: Gallery
 
 ## Current KEITH MK5 Images
 KEITH MK5
-[![KEITH MK5](http://keiththerobot.uk/images/DSC04940-adjusted.jpg "KEITH MK5")](http://keiththerobot.uk/images/DSC04940-adjusted.jpg)
+[![KEITH MK5](http://keiththerobot.uk/images/DSC04940-adjusted--web.jpg "KEITH MK5")](http://keiththerobot.uk/images/DSC04940-adjusted.jpg)
 KEITH MK5 Side
 [![KEITH MK5 side](http://keiththerobot.uk/images/DSC04931-web.jpg "KEITH MK5 side")](http://keiththerobot.uk/images/DSC04931.JPG)
 KEITH MK5 Side

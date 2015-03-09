@@ -20,7 +20,7 @@ KEITH MK5 Back
 ![KEITH MK5 back](http://keiththerobot.uk/images/DSC04937-adjusted.jpg "KEITH MK5 back")
 KEITH MK5 Front
 ![KEITH MK5 front](http://keiththerobot.uk/images/DSC04932-adjusted.jpg "KEITH MK5 front")
-KEITH MK5 Gold Module
+KEITH MK5 Golf Module
 ![KEITH MK5 golf module](http://keiththerobot.uk/images/DSC04942-adjusted.jpg "KEITH MK5 golf module")
 KEITH MK5 Sumo Module
 ![KEITH MK5 sumo module](http://keiththerobot.uk/images/DSC04941-adjusted.jpg "KEITH MK5 sumo module")

@@ -49,6 +49,9 @@ function initialize() {
 
 function regurgitate(data){
   console.log(data);
+  for (index = 0; index < data.length; ++index) {
+    console.log(data[index].SCHNAME)
+  }
 }
 
 function parseCSV(url, callBack) {

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Info windows</title>
+    <style>
+      html, body, #map-canvas {
+        height: 100%;
+        margin: 0px;
+        padding: 0px
+      }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+    <script src="https://rawgit.com/mholt/PapaParse/master/papaparse.min.js"></script>
+    <script>
+function initialize() {
+  var myLatlng = new google.maps.LatLng(53.8060025,-1.5357323);
+  var markers = [];
+  var marker
+    var mapOptions = {
+    zoom: 12,
+    center: myLatlng
+  };
+
+  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+  var contentString = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<h1 id="firstHeading" class="firstHeading">My Home</h1>'+
+      '<div id="bodyContent">'+
+      '<p><b>Home</b>, also referred to as <b>My House</b> is here.' +
+      '</div>';
+
+  var infowindow = new google.maps.InfoWindow();
+  
+  for (var i = 0; i <= 10; ++i) {
+      marker = new google.maps.Marker({
+          position: new google.maps.LatLng(53.8060025+(i/1000),-1.5357323-(i/1000)),
+          map: map,
+          title: 'Home'
+      });
+      makeInfoWindowEvent(map, infowindow, contentString, marker);
+      markers.push(marker);
+  }
+}
+
+function regurgitate(data){
+  console.log(data);
+}
+
+function parseCSV(url, callBack) {
+  Papa.parse(url, {
+    fastMode: true,
+    download: true,
+    header: true,
+    complete: function(results){
+      callBack(results.data);
+    }
+  });
+}
+
+parseCSV('http://www.keiththerobot.uk/csv/383_newspine.csv', regurgitate)
+
+function makeInfoWindowEvent(map, infowindow, contentString, marker) {
+  google.maps.event.addListener(marker, 'click', function() {
+    infowindow.setContent(contentString);
+    infowindow.open(map, marker);
+  })
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>
+  </head>
+  <body>
+    <div id="map-canvas"></div>
+  </body>
+</html>

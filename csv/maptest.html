@@ -53,6 +53,7 @@ function regurgitate(data){
 function parseCSV(url, callBack) {
   Papa.parse(url, {
     fastMode: true,
+    download: true,
     header: true,
     complete: function(results){
       callBack(results.data);
@@ -60,7 +61,7 @@ function parseCSV(url, callBack) {
   });
 }
 
-parseCSV('383_newspine.csv', regurgitate)
+parseCSV('https://www.keiththerobot.uk/csv/383_newspine.csv', regurgitate)
 
 function makeInfoWindowEvent(map, infowindow, contentString, marker) {
   google.maps.event.addListener(marker, 'click', function() {

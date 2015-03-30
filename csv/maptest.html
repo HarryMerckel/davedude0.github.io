@@ -60,7 +60,7 @@ function makeMarkers(data){
       data[index].POSTCODE +
       '</div>';
       var infowindow = new google.maps.InfoWindow();
-      makeInfoWindowEvent(map, infowindow, contentString, marker[index]);
+      makeInfoWindowEvent(map, infowindow, contentString, marker);
       markers.push(marker);
   };
   console.log(markers)

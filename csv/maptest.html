@@ -22,7 +22,6 @@ function initialize() {
   };
 
   var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-  var infowindow = new google.maps.InfoWindow();
   
 }
 var map
@@ -52,6 +51,7 @@ function makeMarkers(data){
       '<div id="bodyContent">'+
       data[index].POSTCODE +
       '</div>';
+      var infowindow = new google.maps.InfoWindow();
       makeInfoWindowEvent(map, infowindow, contentString, marker);
       markers.push(marker);
   }

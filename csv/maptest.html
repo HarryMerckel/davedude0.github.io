@@ -15,14 +15,14 @@
     <script src="papaparse.js"></script>
     toodlepip
     <script>
-var map
+var window.map
 function initialize() {
   var myLatlng = new google.maps.LatLng(53.8060025,-1.5357323);
   var mapOptions = {
     zoom: 12,
     center: myLatlng
   };
-  map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+  window.map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 }
 var infowindow
 google.maps.event.addDomListener(window, 'load', initialize);

@@ -37,6 +37,7 @@ function regurgitate(data){
 function makeMarkers(data){
   var markers = []
   var curIcon
+  var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
   for (index = 0; index < data.length; ++index) {
       var markerLatLng = new google.maps.LatLng(data[index].LAT, data[index].LNG);
       if (data[index].ISSECONDARY == 1) { curIcon = 'mapiconscollection-education-blue-default/highschool.png' }

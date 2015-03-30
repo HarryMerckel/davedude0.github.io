@@ -25,13 +25,11 @@ function initialize() {
 
   var infowindow = new google.maps.InfoWindow();
   
-  
-  parseCSV('http://keiththerobot.uk/csv/383_newspine.csv', makeMarkers)
-  parseCSV('http://keiththerobot.uk/csv/383_newspine.csv', regurgitate)
-  
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
+parseCSV('http://keiththerobot.uk/csv/383_newspine.csv', makeMarkers)
+parseCSV('http://keiththerobot.uk/csv/383_newspine.csv', regurgitate)
 
 function regurgitate(data){
   console.log(data);

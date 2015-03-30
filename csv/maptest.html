@@ -20,9 +20,7 @@ function initialize() {
     zoom: 12,
     center: myLatlng
   };
-
   var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-  
 }
 var map
 var infowindow
@@ -38,6 +36,7 @@ function regurgitate(data){
 
 function makeMarkers(data){
   var markers = []
+  var map
   for (index = 0; index < data.length; ++index) {
       marker = new google.maps.Marker({
         position: new google.maps.LatLng(data[index].LAT, data[index].LNG),

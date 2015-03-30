@@ -42,13 +42,13 @@ function makeMarkers(data){
       var markerLatLng = new google.maps.LatLng(data[index].LAT, data[index].LNG);
       if (data[index].ISSECONDARY == 1) { curIcon = 'http://keiththerobot.uk/csv/mapiconscollection-education-blue-default/highschool.png' }
       else if (data[index].ISPOST16 == 1) { curIcon = 'http://keiththerobot.uk/csv/mapiconscollection-education-green-default/school.png' }
-      else if (data[index].ISPRIMARY == 1) { curIcon = 'http://keiththerobot.uk/csv/mapiconscollection-education-blue-default/cramschool.png'; console.log('primary school added') }
+      else if (data[index].ISPRIMARY == 1) { curIcon = 'http://keiththerobot.uk/csv/mapiconscollection-education-blue-default/cramschool.png'; console.log(curIcon) }
       else { curIcon = 'http://keiththerobot.uk/csv/mapiconscollection-education-red-default/university.png' };
       var marker = new google.maps.Marker({
         position: markerLatLng,
         map: window.map,
         title: data[index].SCHNAME,
-        icon: iconBase + curIcon
+        icon: curIcon
       });
       var markers
       var contentString = '<div id="content">'+

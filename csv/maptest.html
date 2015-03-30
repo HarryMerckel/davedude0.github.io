@@ -34,9 +34,8 @@ function regurgitate(data){
   }
 }
 
-function makeMarkers(data){
+function makeMarkers(data, map){
   var markers = []
-  var map
   for (index = 0; index < data.length; ++index) {
       marker = new google.maps.Marker({
         position: new google.maps.LatLng(data[index].LAT, data[index].LNG),
@@ -60,11 +59,12 @@ function makeMarkers(data){
 }
 
 function parseCSV(url, callBack) {
+  var map
   Papa.parse(url, {
     fastMode: true,
     download: true,
     header: true,
-    complete: function(results){
+    complete: function(results, map){
       callBack(results.data);
     }
   });

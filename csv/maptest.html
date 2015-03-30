@@ -44,7 +44,6 @@ function makeMarkers(data){
         map: window.map,
         title: data[index].SCHNAME
       });
-      console.log(marker)
       var markers
       var contentString = '<div id="content">'+
       '<div id="siteNotice">'+
@@ -57,7 +56,6 @@ function makeMarkers(data){
       makeInfoWindowEvent(map, infowindow, contentString, marker);
       markers.push(marker);
   };
-  console.log(markers)
 }
 
 function parseCSV(url, callBack) {

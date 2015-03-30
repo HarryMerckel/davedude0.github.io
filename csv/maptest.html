@@ -44,9 +44,9 @@ function regurgitate(data){
 function makeMarkers(data){
   var markers = []
   for (index = 0; index < data.length; ++index) {
-      var latlng = new google.maps.LatLng(data[index].LAT, data[index].LNG)
+      var markerLatLng = new google.maps.LatLng(data[index].LAT, data[index].LNG)
       var marker = new google.maps.Marker({
-        position: latlng,
+        position: markerLatLng,
         map: window.map,
         title: data[index].SCHNAME
       });

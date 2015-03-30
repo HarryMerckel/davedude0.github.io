@@ -38,6 +38,7 @@ function regurgitate(data){
 }
 
 function makeMarkers(data){
+  var markers = []
   for (index = 0; index < data.length; ++index) {
       marker = new google.maps.Marker({
           position: new google.maps.LatLng(data[index].LAT, data[index].LNG),

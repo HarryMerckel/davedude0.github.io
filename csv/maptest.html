@@ -40,10 +40,10 @@ function makeMarkers(data){
   var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
   for (index = 0; index < data.length; ++index) {
       var markerLatLng = new google.maps.LatLng(data[index].LAT, data[index].LNG);
-      if (data[index].ISSECONDARY == 1) { curIcon = 'mapiconscollection-education-blue-default/highschool.png' }
-      else if (data[index].ISPOST16 == 1) { curIcon = 'mapiconscollection-education-green-default/school.png' }
-      else if (data[index].ISPRIMARY == 1) { curIcon = 'mapiconscollection-education-blue-default/cramschool.png' }
-      else { curIcon = 'mapiconscollection-education-red-default/university.png' };
+      if (data[index].ISSECONDARY == 1) { curIcon = 'http://keiththerobot.uk/csv/mapiconscollection-education-blue-default/highschool.png' }
+      else if (data[index].ISPOST16 == 1) { curIcon = 'http://keiththerobot.uk/csv/mapiconscollection-education-green-default/school.png' }
+      else if (data[index].ISPRIMARY == 1) { curIcon = 'http://keiththerobot.uk/csv/mapiconscollection-education-blue-default/cramschool.png'; console.log('primary school added') }
+      else { curIcon = 'http://keiththerobot.uk/csv/mapiconscollection-education-red-default/university.png' };
       var marker = new google.maps.Marker({
         position: markerLatLng,
         map: window.map,

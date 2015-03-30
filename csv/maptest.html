@@ -13,6 +13,7 @@
     </style>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
     <script src="papaparse.js"></script>
+    toodlepip
     <script>
 function initialize() {
   var myLatlng = new google.maps.LatLng(53.8060025,-1.5357323);
@@ -20,7 +21,7 @@ function initialize() {
     zoom: 12,
     center: myLatlng
   };
-  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+  map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 }
 var map
 var infowindow

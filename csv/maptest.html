@@ -41,13 +41,13 @@ function regurgitate(data){
   }
 }
 
-function makeMarkers(data, map){
+function makeMarkers(data){
   var markers = []
   for (index = 0; index < data.length; ++index) {
       var latlng = new google.maps.LatLng(data[index].LAT, data[index].LNG)
       var marker = new google.maps.Marker({
         position: latlng,
-        map: map,
+        map: window.map,
         title: data[index].SCHNAME
       });
       console.log(marker)
@@ -71,7 +71,7 @@ function parseCSV(url, callBack) {
     fastMode: true,
     download: true,
     header: true,
-    complete: function(results, map){
+    complete: function(results){
       callBack(results.data);
     }
   });

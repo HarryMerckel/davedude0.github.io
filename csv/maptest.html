@@ -39,7 +39,7 @@ function regurgitate(data){
 function makeMarkers(data, map){
   var markers = []
   for (index = 0; index < data.length; ++index) {
-      marker = new google.maps.Marker({
+      marker[index] = new google.maps.Marker({
         position: new google.maps.LatLng(data[index].LAT, data[index].LNG),
         map: map,
         title: data[index].SCHNAME
@@ -53,8 +53,8 @@ function makeMarkers(data, map){
       data[index].POSTCODE +
       '</div>';
       var infowindow = new google.maps.InfoWindow();
-      makeInfoWindowEvent(map, infowindow, contentString, marker);
-      markers.push(marker);
+      makeInfoWindowEvent(map, infowindow, contentString, marker[index]);
+      markers.push(marker[index]);
   };
   console.log(markers)
 }

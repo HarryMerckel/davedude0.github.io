@@ -99,7 +99,7 @@ function initialize() {
     var name = type.name;
     var icon = type.icon;
     var div = document.createElement('div');
-    div.innerHTML = '<img src="' + icon + '"> ' + name;
+    div.innerHTML = '<img src="' + icon + '"><input type="checkbox" id="' + name + '" onclick="toggleGroup(' + name + ')" CHECKED />' + name;
     legend.appendChild(div);
   };
   window.map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(legend);
@@ -121,9 +121,9 @@ function makeMarkers(data){
   var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
   for (index = 0; index < data.length; ++index) {
       var markerLatLng = new google.maps.LatLng(data[index].LAT, data[index].LNG);
-      if (data[index].ISSECONDARY == 1) { curIcon = 'http://keiththerobot.uk/csv/20_blue.png'; var type = 'high' }
-      else if (data[index].ISPOST16 == 1) { curIcon = 'http://keiththerobot.uk/csv/20_green.png'; var type = 'p16' }
-      else if (data[index].ISPRIMARY == 1) { curIcon = 'http://keiththerobot.uk/csv/20_orange.png'; var type = 'primary' }
+      if (data[index].ISSECONDARY == 1) { curIcon = 'http://keiththerobot.uk/csv/20_blue.png'; var type = 'Secondary' }
+      else if (data[index].ISPOST16 == 1) { curIcon = 'http://keiththerobot.uk/csv/20_green.png'; var type = 'Post 16' }
+      else if (data[index].ISPRIMARY == 1) { curIcon = 'http://keiththerobot.uk/csv/20_orange.png'; var type = 'Primary' }
       else { curIcon = 'http://keiththerobot.uk/csv/20_red.png' };
       var marker = new google.maps.Marker({
         position: markerLatLng,

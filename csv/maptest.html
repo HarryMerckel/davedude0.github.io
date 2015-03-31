@@ -114,9 +114,8 @@ function regurgitate(data){
     console.log(data[index].SCHNAME)
   };
 };
-var window.markers;
+var window.markers = {'Secondary': [], 'Post 16': [], 'Primary': []};
 function makeMarkers(data){
-  window.markers = {'Secondary': [], 'Post 16': [], 'Primary': []}
   var curIcon
   var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
   for (index = 0; index < data.length; ++index) {

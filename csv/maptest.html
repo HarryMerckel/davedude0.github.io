@@ -42,6 +42,7 @@ function initialize() {
   var styledMapOptions = {
     name: 'Custom Style'
   };
+  var customMapType = new google.maps.StyledMapType(featureOpts, styledMapOptions);
   window.map.mapTypes.set(MY_MAPTYPE_ID, customMapType);
 }
 var infowindow

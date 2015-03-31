@@ -21,9 +21,32 @@ function initialize() {
     {
       stylers: [
         {visibility: 'simplified'},
-        {hue: '#0000aa'},
         {gamma: 0.5},
         {weight: 0.5}
+      ]
+    },
+    {
+      featureType: 'poi',
+      elementType: 'all',
+      stylers: [
+        {visibility: 'off'}
+      ]
+    },
+    {
+      featureType: 'poi.school',
+      elementType: 'geometry',
+      stylers: [
+        {visibility: 'on'},
+        {hue: '#00aa00'},
+        {lightness: -15},
+        {saturation: 99}
+      ]
+    },
+    {
+      featureType: 'poi.school',
+      elementType: 'labels',
+      stylers: [
+        {visibility: 'on'},
       ]
     },
     {

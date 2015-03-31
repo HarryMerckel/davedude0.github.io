@@ -82,10 +82,10 @@ function makeMarkers(data){
   var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
   for (index = 0; index < data.length; ++index) {
       var markerLatLng = new google.maps.LatLng(data[index].LAT, data[index].LNG);
-      if (data[index].ISSECONDARY == 1) { curIcon = 'http://keiththerobot.uk/csv/mapiconscollection-education-blue-default/highschool.png'; var type = 'high' }
-      else if (data[index].ISPOST16 == 1) { curIcon = 'http://keiththerobot.uk/csv/mapiconscollection-education-green-default/cramschool.png'; var type = 'p16' }
-      else if (data[index].ISPRIMARY == 1) { curIcon = 'http://keiththerobot.uk/csv/mapiconscollection-education-orange-default/school.png'; var type = 'primary' }
-      else { curIcon = 'http://keiththerobot.uk/csv/mapiconscollection-education-red-default/university.png' };
+      if (data[index].ISSECONDARY == 1) { curIcon = 'http://keiththerobot.uk/csv/20_blue.png'; var type = 'high' }
+      else if (data[index].ISPOST16 == 1) { curIcon = 'http://keiththerobot.uk/csv/20_green.png'; var type = 'p16' }
+      else if (data[index].ISPRIMARY == 1) { curIcon = 'http://keiththerobot.uk/csv/20_orange.png'; var type = 'primary' }
+      else { curIcon = 'http://keiththerobot.uk/csv/20_red.png' };
       var marker = new google.maps.Marker({
         position: markerLatLng,
         map: window.map,

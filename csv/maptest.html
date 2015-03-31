@@ -14,14 +14,35 @@
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
     <script src="papaparse.js"></script>
     <script>
-
+var MY_MAPTYPE_ID = 'custom_style'
 function initialize() {
   var myLatlng = new google.maps.LatLng(53.8060025,-1.5357323);
+  var featureOpts = [
+    {
+      stylers: [
+        {visibility: 'simplified'}
+      ]
+    },
+    {
+      elementType: 'labels',
+      stylers: [
+        {visibility: 'off'}
+      ]
+    },
+  ];
   var mapOptions = {
     zoom: 11,
-    center: myLatlng
+    center: myLatlng,
+    mapTypeControlOptions: {
+      mapTypeIDs: [google.maps.mapTypeID.ROADMAP, MY_MAPTYPE_ID]
+    },
+    mapTypeId: MY_MAPTYPE_ID
   };
   window.map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+  var styledMapOptions = {
+    name: 'Custom Style'
+  };
+  window.map.mapTypes.set(MY_MAPTYPE_ID, customMapType);
 }
 var infowindow
 google.maps.event.addDomListener(window, 'load', initialize);

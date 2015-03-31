@@ -114,9 +114,9 @@ function regurgitate(data){
     console.log(data[index].SCHNAME)
   }
 }
-var markers
+var window.markers
 function makeMarkers(data){
-  markers = {'high': [], 'p16': [], 'primary': []}
+  window.markers = {'Secondary': [], 'Post 16': [], 'Primary': []}
   var curIcon
   var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
   for (index = 0; index < data.length; ++index) {
@@ -141,13 +141,13 @@ function makeMarkers(data){
       '</div>';
       var infowindow = new google.maps.InfoWindow();
       makeInfoWindowEvent(map, infowindow, contentString, marker);
-      markers[type].push(marker);
+      window.markers[type].push(marker);
   };
 }
 
 function toggleGroup(type){
   for (var i = 0; i < markers[type].length; i++){
-    var marker = markers[type][i];
+    var marker = window.markers[type][i];
     if (marker.isHidden()){
       marker.show();
     } else {

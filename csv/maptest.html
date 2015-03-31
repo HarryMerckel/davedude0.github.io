@@ -77,20 +77,21 @@ function regurgitate(data){
 }
 
 function makeMarkers(data){
-  var markers = []
+  markers = {high: [], p16: [], primary: []}
   var curIcon
   var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
   for (index = 0; index < data.length; ++index) {
       var markerLatLng = new google.maps.LatLng(data[index].LAT, data[index].LNG);
-      if (data[index].ISSECONDARY == 1) { curIcon = 'http://keiththerobot.uk/csv/mapiconscollection-education-blue-default/highschool.png' }
-      else if (data[index].ISPOST16 == 1) { curIcon = 'http://keiththerobot.uk/csv/mapiconscollection-education-green-default/cramschool.png' }
-      else if (data[index].ISPRIMARY == 1) { curIcon = 'http://keiththerobot.uk/csv/mapiconscollection-education-orange-default/school.png' }
+      if (data[index].ISSECONDARY == 1) { curIcon = 'http://keiththerobot.uk/csv/mapiconscollection-education-blue-default/highschool.png'; var type = high }
+      else if (data[index].ISPOST16 == 1) { curIcon = 'http://keiththerobot.uk/csv/mapiconscollection-education-green-default/cramschool.png'; var type = p16 }
+      else if (data[index].ISPRIMARY == 1) { curIcon = 'http://keiththerobot.uk/csv/mapiconscollection-education-orange-default/school.png'; var type = primary }
       else { curIcon = 'http://keiththerobot.uk/csv/mapiconscollection-education-red-default/university.png' };
       var marker = new google.maps.Marker({
         position: markerLatLng,
         map: window.map,
         title: data[index].SCHNAME,
-        icon: curIcon
+        icon: {url:curIcon;size: new google.maps.Size(16,19)}
+        iconSize: 
       });
       var markers
       var contentString = '<div id="content">'+
@@ -102,7 +103,7 @@ function makeMarkers(data){
       '</div>';
       var infowindow = new google.maps.InfoWindow();
       makeInfoWindowEvent(map, infowindow, contentString, marker);
-      markers.push(marker);
+      markers[type].push(marker);
   };
 }
 

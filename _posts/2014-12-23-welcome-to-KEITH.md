@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Welcome to my new website, a blog about KEITH the robot and everything else related!
-categories: [KEITH]
+title: Welcome to my new website about KEITH the robot!
+categories: [KEITH, sticky]
 ---
 
 ### What will you see here?

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: KEITH Evolution (2015)
+---
 
 <div class="posts">
    {% assign index = true %}

@@ -23,7 +23,7 @@ With KEITH MK2 came a complete new track configuration, which involved moving th
 
 ## Some new clothes
 
-MK3 was the first iteration of KEITH with a proper chassis, which was made out of 3mm plywood and cut with a jigsaw... Needless to say, it wasn't quite a masterpiece yet but it certain;y did the job until we could get the MK4 chassis laser cut.
+MK3 was the first iteration of KEITH with a proper chassis, which was made out of 3mm plywood and cut with a jigsaw... Needless to say, it wasn't quite a masterpiece yet but it certainly did the job until we could get the MK4 chassis laser cut.
 
 
 <a href="http://www.raspberrypi.org">Raspberry Pi</a> is a trademark of the Raspberry Pi Foundation.

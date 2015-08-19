@@ -1,3 +1,7 @@
+---
+layout: page
+title: KEITH Evolution (2015)
+
 <div class="posts">
    {% assign index = true %}
    <!-- This section shows sticky posts at the top o the page -->

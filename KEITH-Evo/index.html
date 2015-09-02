@@ -8,6 +8,7 @@ title: KEITH Evolution (2015)
       <!-- This next section is used to see if the post is sticky or hidden, in which case it's already been shown -->
       {% assign sticky = false %}
       {% assign hidden = false %}
+      {% assign evo = false %}
       {% for cat in post.categories %} <!-- Roll through this pages categories to find if it is in certain categories -->
          {% if cat == 'sticky' %}
             {% assign sticky = true %}
@@ -19,7 +20,7 @@ title: KEITH Evolution (2015)
             {% assign evo = true %}
          {% endif %}
       {% endfor %}
-      {% unless sticky %} <!-- Only show the article if it is NOT sticky -->
+      {% unless sticky %} <!-- Only show the article if it is not sticky -->
          {% unless hidden %} <!-- Also only shows if article is not hidden -->
             {% if evo %}
                <div class="post">

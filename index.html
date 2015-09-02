@@ -6,23 +6,21 @@ title: Home
 <div class="posts">
    {% assign index = true %}
    <!-- This section shows sticky posts at the top o the page -->
-   {% if paginator.page == 1 %}
-      {% for post in site.categories.sticky %}
-         <div class="post">
-            <h1 class="post-title">
-               <a href="{{ post.url }}">
-                  {{ post.title }}
-               </a>
-            </h1>
-            
-            <span class="post-date">{{ post.date | date_to_string }} - sticky</span>
-            
-            {{ post.content }}
-            <p>If you haven't already, don't forget to subscribe to our <b><a href="http://eepurl.com/bwu2Cj">mailing list</a></b> for updates on when new blog posts are live!</p>
-         </div>
-      {% endfor %}
-   {% endif %}
-   {% for post in paginator.posts %}
+  {% for post in site.categories.sticky %}
+     <div class="post">
+        <h1 class="post-title">
+           <a href="{{ post.url }}">
+              {{ post.title }}
+           </a>
+        </h1>
+        
+        <span class="post-date">{{ post.date | date_to_string }} - sticky</span>
+        
+        {{ post.content }}
+        <p>If you haven't already, don't forget to subscribe to our <b><a href="http://eepurl.com/bwu2Cj">mailing list</a></b> for updates on when new blog posts are live!</p>
+     </div>
+  {% endfor %}
+   {% for post in site.posts limit:5 %}
       <!-- This next section is used to see if the post is sticky or hidden, in which case it's already been shown -->
       {% assign sticky = false %}
       {% assign hidden = false %}
@@ -51,21 +49,4 @@ title: Home
          {% endunless %}
       {% endunless %}
    {% endfor %} 
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
 </div>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: KEITH Evolution
-categories: [KEITH, KEITH Evo]
+categories: [KEITH, evo]
 ---
 
 ## PiWars 2015 Blog

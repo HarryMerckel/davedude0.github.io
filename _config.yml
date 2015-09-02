@@ -18,7 +18,6 @@ permalink:        /post/:title
 relative_permalinks: true
 
 paginate:         5
-paginate_path:    /KEITH-Evo/page:num
 
 # Custom vars
 version:          2.1.0

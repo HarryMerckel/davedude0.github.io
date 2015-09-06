@@ -15,3 +15,7 @@ A new robot, KEITH Evolution is currently under development to compete in PiWars
 
 ## The website
 This website is powered by Jekyll, a blogging system that creates static HTML files from code and text content. This website uses the <a href="http://hyde.getpoole.com/">Hyde</a> layout. I'm running this website using <a href="https://pages.github.com/">GitHub Pages</a>, which processes the Jekyll markdown automatically.
+
+## Contact us!
+
+The best ways to contact us are via email, <{{ site.email }}>, or on Twitter, [@{{ site.twitter_username }}](http://www.twitter.com/{{ site.twitter_username }})

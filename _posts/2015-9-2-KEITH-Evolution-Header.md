@@ -33,3 +33,5 @@ KEITH was remotely controlled using a Wiimote. We'd like to try radio control wi
 We will also devise a few new Heath-Robinson-esque attachments for the various challenges in due course. Expect servos, bent wire and rubber-bands again!
 
 Expect more news as we progress.
+
+~Andy

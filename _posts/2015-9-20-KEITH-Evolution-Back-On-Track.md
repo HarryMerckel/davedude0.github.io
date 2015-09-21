@@ -6,7 +6,7 @@ categories: [KEITH, evo]
 
 We’re starting to get organised now. Tracks and motors are in our possession and the drive wheels for the tracks have been modified (I’m told the correct term is ‘hacked’) to fit the motor shafts.
 Initial CAD drawings have been done to start to map out the track configuration. Having chosen an A4 plan size there is loads of room for everything else!
-The original Keith was a masterclass in fitting things in to no space, so this may be a little easier  as we bring things together and change our minds about thing!
+The original Keith was a masterclass in fitting things in to no space, so this may be a little easier  as we bring things together and change our minds about things!
 The basic chassis configuration needs to be decided on and Harry needs to make friends with the tech teacher at his new school!
 
 Harry is well on with taming the radio control. The original receiver was identified as being made in the very early 1980s and proved impossible to hack to intercept the radio signal from the transmitter.

@@ -13,3 +13,5 @@ It will all go together, somehow!
 We are currently working with a simple chassis that is basically a bucket with the tracks and motors attached, and looks a lot like a WW1 tank. I've been working on Cad to draft something a little better. I now know what a ‘living hinge’ is and the very helpful DT team at Harry’s school have cut some test parts on the laser cutter. Whether I can get away from the ‘tank’ look is yet to be seen. There are only so many ways to configure a tracked vehicle…
 
 The skittle challenge is also still taxing the grey matter, although ideas are now forming that involve tubes, elastic, a servo and exploration of the shed. Wish me luck!
+
+~Andy

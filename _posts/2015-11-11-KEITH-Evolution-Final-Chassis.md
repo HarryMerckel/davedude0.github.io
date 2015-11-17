@@ -10,7 +10,7 @@ After the resolution of the ultrasonic sensor problem, we had tested and refined
 
 The working of the skittle challenge are also coming together, with the servo system now in place. Blinky bits are also coming together with transistors working as relays to turn them on and off.
 
-![Chassis Parts](http://keiththerobot.uk/images/Evo-FinalParts.png "The final chassis parts"
+![Chassis Parts](http://keiththerobot.uk/images/Evo-FinalParts.png "The final chassis parts")
 
 H & I have spent a huge amount of time (mostly late at night…) working on the CAD for the final chassis. Holes for wires, LEDs etc etc have been added, some component locations adjusted and a few fundamental changes to allow us to get at things underneath. We are leaving the workings on show, but KEITH Evo is looking fairly slick now! Our good friend at Harry’s school has today cut the parts. I've found two components that need re-cutting due to my inability to measure properly and I am now starting to assemble KEITH Evo for final testing.
 

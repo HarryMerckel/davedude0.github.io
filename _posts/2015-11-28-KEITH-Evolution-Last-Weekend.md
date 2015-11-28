@@ -4,16 +4,16 @@ title: KEITH Evolution - The Home Straight?
 categories: [KEITH, evo]
 ---
 
-*Chassis assembled. Check.
-*Motors checked and installed. Check.
-*Track system working. Check.
-*Pi mounted. Check.
-*Skittles cannon fitted. Check.
-*LEDs soldered up and working. Check.
-*Lasers aimed and set. Check.
-*Circuitry attached to Pi. Check.
-*Batteries attached. Check.
-*Fire everything up. Oops!
+* Chassis assembled. Check.
+* Motors checked and installed. Check.
+* Track system working. Check.
+* Pi mounted. Check.
+* Skittles cannon fitted. Check.
+* LEDs soldered up and working. Check.
+* Lasers aimed and set. Check.
+* Circuitry attached to Pi. Check.
+* Batteries attached. Check.
+* Fire everything up. Oops!
 
 No motor control. LEDs on when they should be off. Distance sensor giving odd readings. Aaaaaaaarghhhhhhh!!
 
@@ -21,10 +21,10 @@ Deep breath. Remove home made circuits and recheck. Discover a poor connection, 
 
 Everything plugged back in.
 
-*Motors working. Check.
-*LEDs working. Check.
-*Distance sensor. Working, with an odd error that we have now worked round.
-*Line follower working. Check.
+* Motors working. Check.
+* LEDs working. Check.
+* Distance sensor. Working, with an odd error that we have now worked round.
+* Line follower working. Check.
 
 ‘All’ that is left to do now is final checks on the wheel counters and to refine the code for the three point turn and straight line test. Then we need to practice without breaking it!
 

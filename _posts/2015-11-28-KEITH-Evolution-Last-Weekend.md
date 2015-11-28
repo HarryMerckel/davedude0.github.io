@@ -32,6 +32,4 @@ Deadline on blogs? What deadline? It would have helped if the entrant had rememb
 
 See you all next weekend.
 
-Andy and Harry
-
-~Harry
+~Andy and Harry

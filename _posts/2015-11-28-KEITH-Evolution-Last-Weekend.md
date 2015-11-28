@@ -33,3 +33,11 @@ Deadline on blogs? What deadline? It would have helped if the entrant had rememb
 See you all next weekend. :-D
 
 ~Andy and Harry
+
+And now, images!
+
+![An arty shot](http://keiththerobot.uk/images/evo-arty.jpg "An arty shot...")
+
+![The front](http://keiththerobot.uk/images/evo-front.jpg "The front...")
+
+![The back](http://keiththerobot.uk/images/evo-back.jpg "And the back.")

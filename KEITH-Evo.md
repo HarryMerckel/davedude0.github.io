@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: KEITH Evolution (2015)
 ---
 

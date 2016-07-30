@@ -3,7 +3,9 @@ layout: page
 title: KEITH Evolution (2015)
 ---
 
-This is an archive of the KEITH Evolution blog from 2015. Each title is a link For information regarding our next PiWars entry, head over to the [blog]({{ site.blogurl }})!
+This is an archive of the KEITH Evolution blog from 2015. Each title is a link to the post.
+
+For information regarding our next PiWars entry, head over to the [blog]({{ site.blogurl }})!
 
 <div class="posts">
    {% for post in site.posts reversed %} {% comment %} Display posts in forward chronological order - no longer an active blog! {% endcomment %}
@@ -35,16 +37,16 @@ This is an archive of the KEITH Evolution blog from 2015. Each title is a link F
 
                   {% comment %} {{ post.content }} {% endcomment %}
 
-                  <br>
-                  <br>
-                  <p>If you haven't already, don't forget to subscribe to our <a href="http://eepurl.com/bwu2Cj"><b>mailing list</b></a> or follow us on Twitter @[{{ site.twitter_username }}](http://www.twitter.com/{{ site.twitter_username }}) for updates on when new blog posts are live!</p>
-
                   </div>
                {% endunless %}
          {% endunless %}
       {% endif %}
    {% endfor %}
 </div>
+
+<br>
+<br>
+<p>If you haven't already, don't forget to subscribe to our <a href="http://eepurl.com/bwu2Cj"><b>mailing list</b></a> or follow us on Twitter @[{{ site.twitter_username }}](http://www.twitter.com/{{ site.twitter_username }}) for updates on when new blog posts are live!</p>
 
 {% comment %}
 <div class="pagination">

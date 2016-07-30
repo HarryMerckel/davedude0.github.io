@@ -33,7 +33,7 @@ For information regarding our next PiWars entry, head over to the [blog]({{ site
                         {{ post.title }}
                      </a>
                   </h3>
-                  <span class="post-date">{{ post.date | date_to_string }}</span>
+                  <span class="post-date-alt">{{ post.date | date_to_string }}</span>
                   {% comment %} {{ post.content }} {% endcomment %}
                   </div>
                {% endunless %}

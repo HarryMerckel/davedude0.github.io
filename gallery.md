@@ -4,8 +4,8 @@ title: Gallery
 ---
 
 <p class="message">
-  This is simply a gallery of images of KEITH and anything else I post on this website. The most recent or relevant images will likely be at the top.
-  Click the images for much higher quality (and 10 to 15 times larger file size!) images.
+  This is a gallery of images of KEITH, currently only from 2014. More to come from more recent competitions!
+  Click the images for much larger, higher quality images.
 </p>
 
 ## Current KEITH MK5 Images

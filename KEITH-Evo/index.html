@@ -4,12 +4,12 @@ title: KEITH Evolution (2015)
 ---
 
 <div class="posts">
-   {% for post in paginator.posts %}
-      <!-- This next section is used to see if the post is sticky or hidden, in which case it's already been shown -->
+   {% for post in site.posts reversed %} <!-- Display posts in forward chronological order - no longer an active blog! -->
+      <!-- Check that the post is meant to be displayed -->
       {% assign sticky = false %}
       {% assign hidden = false %}
       {% assign evo = false %}
-      {% for cat in post.categories %} <!-- Roll through this pages categories to find if it is in certain categories -->
+      {% for cat in post.categories %} <!-- Check all categories - a bit cumbersome, might look into shortening -->
          {% if cat == 'sticky' %}
             {% assign sticky = true %}
          {% endif %}
@@ -20,31 +20,31 @@ title: KEITH Evolution (2015)
             {% assign evo = true %}
          {% endif %}
       {% endfor %}
-      {% unless sticky %} <!-- Only show the article if it is not sticky -->
+      {% if evo %} <!-- Only show the article if it is meant to be part of the KEITH Evolution page -->
          {% unless hidden %} <!-- Also only shows if article is not hidden -->
-            {% if evo %}
+            {% unless sticky %} <!-- Only show the article if it is not sticky -->
                <div class="post">
                   <h1 class="post-title">
                      <a href="{{ post.url }}">
                         {{ post.title }}
                      </a>
                   </h1>
-                  
-                  <span class="post-date">{{ post.date | date_to_string }}</span>
-                  
-                  {{ post.content }}
-                  
-                  <br>
-                  <br>
-                  <p>If you haven't already, don't forget to subscribe to our <a href="http://eepurl.com/bwu2Cj"><b>mailing list</b></a> for updates on when new blog posts are live!</p>
-                  
-                  </div>
-               {% endif %}
-         {% endunless %}
-      {% endunless %}
-   {% endfor %} 
-</div>
 
+                  <span class="post-date">{{ post.date | date_to_string }}</span>
+
+                  {{ post.content }}
+
+                  <br>
+                  <br>
+                  <p>If you haven't already, don't forget to subscribe to our <a href="http://eepurl.com/bwu2Cj"><b>mailing list</b></a> or follow us on Twitter [@{{ site.twitter_username }}](http://www.twitter.com/{{ site.twitter_username }}) for updates on when new blog posts are live!</p>
+
+                  </div>
+               {% endunless %}
+         {% endunless %}
+      {% endif %}
+   {% endfor %}
+</div>
+<!--
 <div class="pagination">
   {% if paginator.next_page %}
     <a class="pagination-item older" href="{{ site.evourl }}page{{paginator.next_page}}">Older</a>
@@ -60,4 +60,4 @@ title: KEITH Evolution (2015)
   {% else %}
     <span class="pagination-item newer">Newer</span>
   {% endif %}
-</div>
+</div> -->

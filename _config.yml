@@ -21,6 +21,7 @@ permalink:        /post/:title
 
 paginate:         5
 paginate_path:    /blog/page:num
+paginate_category: "K2017"
 
 # Custom vars
 

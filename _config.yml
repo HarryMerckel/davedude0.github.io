@@ -16,7 +16,6 @@ highlighter:      pygments
 
 # Permalinks
 permalink:        /post/:title
-relative_permalinks: true
 
 paginate:         5
 paginate_path:    /KEITH-Evo/page:num

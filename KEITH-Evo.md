@@ -28,12 +28,12 @@ For information regarding our next PiWars entry, head over to the [blog]({{ site
          {% unless hidden %} {% comment %} Also only shows if article is not hidden {% endcomment %}
             {% unless sticky %} {% comment %} Only show the article if it is not sticky {% endcomment %}
                <div>
-                  <h3 class="post-title">
+                  <h2 class="post-title">
                      <a href="{{ post.url }}">
                         {{ post.title }}
                      </a>
-                  </h3>
-                  <span class="post-date-alt">{{ post.date | date_to_string }}</span>
+                  </h2>
+                  <span class="post-date">{{ post.date | date_to_string }}</span>
                   {% comment %} {{ post.content }} {% endcomment %}
                   </div>
                {% endunless %}

@@ -27,7 +27,7 @@ For information regarding our next PiWars entry, head over to the [blog]({{ site
       {% if evo %} {% comment %} Only show the article if it is meant to be part of the KEITH Evolution page {% endcomment %}
          {% unless hidden %} {% comment %} Also only shows if article is not hidden {% endcomment %}
             {% unless sticky %} {% comment %} Only show the article if it is not sticky {% endcomment %}
-               <div class="post">
+               <div>
                   <h3 class="post-title">
                      <a href="{{ post.url }}">
                         {{ post.title }}
@@ -43,7 +43,6 @@ For information regarding our next PiWars entry, head over to the [blog]({{ site
 </div>
 
 <p>If you haven't already, don't forget to subscribe to our <a href="http://eepurl.com/bwu2Cj"><b>mailing list</b></a> or follow us on Twitter @[{{ site.twitter_username }}](http://www.twitter.com/{{ site.twitter_username }}) for updates on when new blog posts are live!</p>
-
 {% comment %}
 <div class="pagination">
   {% if paginator.next_page %}

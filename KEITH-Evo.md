@@ -19,6 +19,6 @@ For information regarding our next PiWars entry, head over to the [blog]({{ site
         {% comment %} {{ post.content }} {% endcomment %}
       </div>
    {% endfor %}
-</div>
 
 <p>If you haven't already, don't forget to subscribe to our <a href="http://eepurl.com/bwu2Cj"><b>mailing list</b></a> or follow us on Twitter @[{{ site.twitter_username }}](http://www.twitter.com/{{ site.twitter_username }}) for updates on when new blog posts are live!</p>
+</div>

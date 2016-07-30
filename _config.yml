@@ -14,7 +14,7 @@ github_username:  davedude0
 markdown:         kramdown
 gems:
   - jekyll-sitemap
-  - jekyll-pagination
+  - jekyll-paginate
 
 # Permalinks
 permalink:        /post/:title
@@ -23,7 +23,6 @@ paginate:         6
 paginate_path:    /blog/page:num
 
 # Custom vars
-version:          2.1.0
 
 github:
   repo:           https://github.com/davedude0/

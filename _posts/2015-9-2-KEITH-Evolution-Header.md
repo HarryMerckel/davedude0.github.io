@@ -1,6 +1,6 @@
 ---
 layout: post
-title: KEITH Evolution - Introduction
+title: Introduction
 categories: [KEITH, evo]
 ---
 
@@ -16,17 +16,17 @@ The original KEITH (as seen elsewhere on this website), in his various incarnati
 
 We applied for the 2015 competition not sure if we would get an entry and didn’t think too hard about what we could build. On holiday, we talked the whole thing through and weighed up the pros and cons of various configurations. As this robot is an evolution of the original we have decided that we will create a new tracked robot with a wooden chassis and attachments for the various challenges. As with KEITH, there will be a Raspberry Pi at his heart (obviously!), a motor controller of some sort and probably an LED controller. We have decided to enter the A4 class so KEITH Evolution will be significantly larger than KEITH, who fitted on an A5 sheet.
 
-KEITH ran a couple of small, very cheap, 6v dc motors through a Tamiya gearbox and tracks. The motors lacked torque and the tracks stretched as they got older. The arrangement worked well on hard surfaces, but not so well on carpet. Also the motors were very hard to balance as they differed in output, with different differences between forwards and reverse! Our attempts at PID failed so we devised  a trial and error empirical system instead. We just about got away with that… 
+KEITH ran a couple of small, very cheap, 6v dc motors through a Tamiya gearbox and tracks. The motors lacked torque and the tracks stretched as they got older. The arrangement worked well on hard surfaces, but not so well on carpet. Also the motors were very hard to balance as they differed in output, with different differences between forwards and reverse! Our attempts at PID failed so we devised  a trial and error empirical system instead. We just about got away with that…
 
 At PiWars we talked to the PiBorg people and were impressed with the motors they used – and the torque they have. KEITH Evo will utilise similar motors to power the tracks.
 
-With KEITH Evo being bigger, we are currently researching tracks. We feel that metal ones will not have enough friction on hard surfaces and will introduce errors in the skid-steer system, so plastic or nylon appears to be the way we are heading. 
+With KEITH Evo being bigger, we are currently researching tracks. We feel that metal ones will not have enough friction on hard surfaces and will introduce errors in the skid-steer system, so plastic or nylon appears to be the way we are heading.
 
 Once we have sorted tracks and motors the chassis design will begin. As with KEITH, this will be done on AutoCad and built from laser-cut 3mm ply (courtesy of whichever obliging school teacher we can persuade to cut it for us!). Harry is keen to incorporate living hinges in the chassis design.
 
 We used a 7.2v battery with KEITH which worked well as long as it was fully charged between challenges. As the battery drained we experienced some very odd behavioural problems! We will determine battery type once we have the motors sourced.
 
-Sensors will be along similar lines to KEITH’s for proximity and line-following. We will expand on what we did for wheel encoders and look at various other options for location and straight-line management. 
+Sensors will be along similar lines to KEITH’s for proximity and line-following. We will expand on what we did for wheel encoders and look at various other options for location and straight-line management.
 
 KEITH was remotely controlled using a Wiimote. We'd like to try radio control with proportional control of the motors and attachments – we’ll see about that!
 

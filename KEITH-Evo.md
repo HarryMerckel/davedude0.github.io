@@ -3,7 +3,7 @@ layout: page
 title: KEITH Evolution (2015)
 ---
 
-This is an archive of the KEITH Evolution blog from 2015. For the current blog regarding next PiWars' entry, go [here]({{ site.blogurl }})!
+This is an archive of the KEITH Evolution blog from 2015. Each title is a link For information regarding our next PiWars entry, head over to the [blog]({{ site.blogurl }})!
 
 <div class="posts">
    {% for post in site.posts reversed %} {% comment %} Display posts in forward chronological order - no longer an active blog! {% endcomment %}
@@ -26,15 +26,14 @@ This is an archive of the KEITH Evolution blog from 2015. For the current blog r
          {% unless hidden %} {% comment %} Also only shows if article is not hidden {% endcomment %}
             {% unless sticky %} {% comment %} Only show the article if it is not sticky {% endcomment %}
                <div class="post">
-                  <h1 class="post-title">
+                  <h3 class="post-title">
                      <a href="{{ post.url }}">
                         {{ post.title }}
                      </a>
-                  </h1>
-
+                  </h3>
                   <span class="post-date">{{ post.date | date_to_string }}</span>
 
-                  {{ post.content }}
+                  {% comment %} {{ post.content }} {% endcomment %}
 
                   <br>
                   <br>

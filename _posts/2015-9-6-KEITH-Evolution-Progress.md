@@ -1,6 +1,6 @@
 ---
 layout: post
-title: KEITH Evolution - Progress, sort of...
+title: Progress, sort of...
 categories: [KEITH, evo]
 ---
 

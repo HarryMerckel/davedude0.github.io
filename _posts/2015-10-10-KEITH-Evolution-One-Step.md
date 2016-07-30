@@ -1,6 +1,6 @@
 ---
 layout: post
-title: KEITH Evolution - One Step at a Time
+title: One Step at a Time
 categories: [KEITH, evo]
 ---
 

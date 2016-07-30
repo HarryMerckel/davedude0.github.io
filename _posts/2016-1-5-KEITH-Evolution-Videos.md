@@ -1,6 +1,6 @@
 ---
 layout: post
-title: KEITH Evolution - Video Update
+title: Update - Videos
 categories: [KEITH, evo]
 ---
 

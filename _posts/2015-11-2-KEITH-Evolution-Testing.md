@@ -1,6 +1,6 @@
 ---
 layout: post
-title: KEITH Evolution - Testing, testing!
+title: Testing, testing!
 categories: [KEITH, evo]
 ---
 

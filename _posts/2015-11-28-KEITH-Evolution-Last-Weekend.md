@@ -1,6 +1,6 @@
 ---
 layout: post
-title: KEITH Evolution - The Home Straight?
+title: The Home Straight?
 categories: [KEITH, evo]
 ---
 

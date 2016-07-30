@@ -1,6 +1,6 @@
 ---
 layout: post
-title: KEITH Evolution - Trials and Tribulations...
+title: Trials and Tribulations...
 categories: [KEITH, evo]
 ---
 

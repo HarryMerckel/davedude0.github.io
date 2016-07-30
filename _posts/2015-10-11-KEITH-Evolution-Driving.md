@@ -1,6 +1,6 @@
 ---
 layout: post
-title: KEITH Evolution - First Driving Lessons
+title: First Driving Lessons
 categories: [KEITH, evo]
 ---
 

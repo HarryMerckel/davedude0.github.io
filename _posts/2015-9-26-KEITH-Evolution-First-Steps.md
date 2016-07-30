@@ -1,6 +1,6 @@
 ---
 layout: post
-title: KEITH Evolution - First Steps
+title: First Steps
 categories: [KEITH, evo]
 ---
 
@@ -14,7 +14,7 @@ All this meant that I had to sit down and draw up a basic chassis for KEITH Evo 
 
 The parts went together really well (smug grin!) and an hour or so later we had a chassis with wheels, tracks and motors fitted. At the same time, Harry put together his motor controller on the breadboard. Over the weekend we will try to put radio, arduino, Pi, motor controller and chassis all together to see if we have life! Watch this space...
 
-As soon as all of that is functional we will work on the distance challenge and the line following. I think we are confident that code and techniques worked out last year will help with that, so they should be quick wins. After that, the 3 point turn will create the biggest challenge and we will use the same work to fine-tune the straight line speed test in autonomous mode. 
+As soon as all of that is functional we will work on the distance challenge and the line following. I think we are confident that code and techniques worked out last year will help with that, so they should be quick wins. After that, the 3 point turn will create the biggest challenge and we will use the same work to fine-tune the straight line speed test in autonomous mode.
 
 As for the skittles…
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: KEITH Evolution - Acquisition of Knowledge and Bits
+title: Acquisition of Knowledge and Bits
 categories: [KEITH, evo]
 ---
 

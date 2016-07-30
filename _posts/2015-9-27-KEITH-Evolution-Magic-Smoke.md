@@ -1,6 +1,6 @@
 ---
 layout: post
-title: KEITH Evolution - Magic Smoke...
+title: Magic Smoke...
 categories: [KEITH, evo]
 ---
 

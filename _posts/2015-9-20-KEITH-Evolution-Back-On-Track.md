@@ -1,6 +1,6 @@
 ---
 layout: post
-title: KEITH Evolution - Back On Track
+title: Back On Track
 categories: [KEITH, evo]
 ---
 

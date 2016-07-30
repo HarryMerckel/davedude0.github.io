@@ -4,46 +4,26 @@ title: Blog
 ---
 
 <div class="posts">
-   {% for post in pagination.posts %}
-      <!-- Check that the post is meant to be displayed -->
-      {% assign sticky = false %}
-      {% assign hidden = false %}
-      {% assign K2017 = false %}
-      {% for cat in post.categories %} <!-- Check all categories - a bit cumbersome, might look into shortening -->
-         {% if cat == 'sticky' %}
-            {% assign sticky = true %}
-         {% endif %}
-         {% if cat == 'hidden' %}
-            {% assign hidden = true %}
-         {% endif %}
-         {% if cat == 'K2017' %}
-            {% assign K2017 = true %}
-         {% endif %}
-      {% endfor %}
-      {% if K2017 %} <!-- Only show the article if it is meant to be part of the blog -->
-         {% unless hidden %} <!-- Only shows if article is not hidden -->
-            {% unless sticky %} <!-- Only show the article if it is not sticky -->
-               <div class="post">
-                  <h1 class="post-title">
-                     <a href="{{ post.url }}">
-                        {{ post.title }}
-                     </a>
-                  </h1>
+   {% for post in site.categories.K2017 %}
+     <div class="post">
+        <h1 class="post-title">
+           <a href="{{ post.url }}">
+              {{ post.title }}
+           </a>
+        </h1>
 
-                  <span class="post-date">{{ post.date | date_to_string }}</span>
+        <span class="post-date">{{ post.date | date_to_string }}</span>
 
-                  {{ post.content }}
+        {{ post.content }}
 
-                  <br>
-                  <br>
-                  <p>If you haven't already, don't forget to subscribe to our <a href="http://eepurl.com/bwu2Cj"><b>mailing list</b></a> or follow us on Twitter <a href="http://www.twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a> for updates on when new blog posts are live!</p>
+        <br>
+        <br>
+        <p>If you haven't already, don't forget to subscribe to our <a href="http://eepurl.com/bwu2Cj"><b>mailing list</b></a> or follow us on Twitter <a href="http://www.twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a> for updates on when new blog posts are live!</p>
 
-                  </div>
-               {% endunless %}
-         {% endunless %}
-      {% endif %}
+      </div>
    {% endfor %}
 </div>
+{% comment %}
 <div class="pagination">
   {% if paginator.next_page %}
     <a class="pagination-item older" href="{{ site.blogurl }}page{{paginator.next_page}}">Older</a>
@@ -60,3 +40,4 @@ title: Blog
     <span class="pagination-item newer">Newer</span>
   {% endif %}
 </div>
+{% endcomment %}

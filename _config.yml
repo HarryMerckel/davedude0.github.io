@@ -14,14 +14,14 @@ github_username:  davedude0
 markdown:         kramdown
 gems:
   - jekyll-sitemap
-  - jekyll-paginate
+#  - jekyll-paginate
 
 # Permalinks
 permalink:        /post/:title
 
-paginate:         5
-paginate_path:    /blog/page:num
-paginate_category: "K2017"
+#paginate:         5
+#paginate_path:    /blog/page:num
+#paginate_category: "K2017"
 
 # Custom vars
 

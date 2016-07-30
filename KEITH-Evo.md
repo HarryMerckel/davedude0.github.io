@@ -34,9 +34,7 @@ For information regarding our next PiWars entry, head over to the [blog]({{ site
                      </a>
                   </h3>
                   <span class="post-date">{{ post.date | date_to_string }}</span>
-
                   {% comment %} {{ post.content }} {% endcomment %}
-
                   </div>
                {% endunless %}
          {% endunless %}
@@ -44,8 +42,6 @@ For information regarding our next PiWars entry, head over to the [blog]({{ site
    {% endfor %}
 </div>
 
-<br>
-<br>
 <p>If you haven't already, don't forget to subscribe to our <a href="http://eepurl.com/bwu2Cj"><b>mailing list</b></a> or follow us on Twitter @[{{ site.twitter_username }}](http://www.twitter.com/{{ site.twitter_username }}) for updates on when new blog posts are live!</p>
 
 {% comment %}

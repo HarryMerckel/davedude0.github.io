@@ -13,7 +13,7 @@ We spent a lot of time planning the first KEITH and production took a while, but
 
  Have a look at the main post <a href="/KEITH-2014"><b>here</b></a> and at the <a href="/gallery"><b>gallery</b></a>!
 
-For PiWars 2015 we developed a new robot, bigger and better in many ways than last year's - KEITH Evolution. You can see how we made KEITH Evo and how we got on in the competition (Very well!) <a href="/KEITH-Evo"><b>here</b></a>.
+For PiWars 2015 we developed a new robot, bigger and better in many ways than last year's - KEITH Evolution. You can see how we made KEITH Evo and how we got on in the competition (Very well!) <a href="/KEITH-Evo.html"><b>here</b></a>.
 
 ## The website
 

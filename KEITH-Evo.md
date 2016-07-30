@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: post
 title: KEITH Evolution (2015)
 ---
+
+This is an archive of the KEITH Evolution blog from 2015. For the current blog regarding next PiWars' entry, go here!
 
 <div class="posts">
    {% for post in site.posts reversed %} {% comment %} Display posts in forward chronological order - no longer an active blog! {% endcomment %}
@@ -36,7 +38,7 @@ title: KEITH Evolution (2015)
 
                   <br>
                   <br>
-                  <p>If you haven't already, don't forget to subscribe to our <a href="http://eepurl.com/bwu2Cj"><b>mailing list</b></a> or follow us on Twitter [@{{ site.twitter_username }}](http://www.twitter.com/{{ site.twitter_username }}) for updates on when new blog posts are live!</p>
+                  <p>If you haven't already, don't forget to subscribe to our <a href="http://eepurl.com/bwu2Cj"><b>mailing list</b></a> or follow us on Twitter @[{{ site.twitter_username }}](http://www.twitter.com/{{ site.twitter_username }}) for updates on when new blog posts are live!</p>
 
                   </div>
                {% endunless %}
@@ -44,7 +46,8 @@ title: KEITH Evolution (2015)
       {% endif %}
    {% endfor %}
 </div>
-<!--
+
+{% comment %}
 <div class="pagination">
   {% if paginator.next_page %}
     <a class="pagination-item older" href="{{ site.evourl }}page{{paginator.next_page}}">Older</a>
@@ -60,4 +63,4 @@ title: KEITH Evolution (2015)
   {% else %}
     <span class="pagination-item newer">Newer</span>
   {% endif %}
-</div> -->
+</div> {% endcomment %}

@@ -4,12 +4,12 @@ title: KEITH Evolution (2015)
 ---
 
 <div class="posts">
-   {% for post in site.posts reversed %} <!-- Display posts in forward chronological order - no longer an active blog! -->
-      <!-- Check that the post is meant to be displayed -->
+   {% for post in site.posts reversed %} {% comment %} Display posts in forward chronological order - no longer an active blog! {% endcomment %}
+      {% comment %} Check that the post is meant to be displayed {% endcomment %}
       {% assign sticky = false %}
       {% assign hidden = false %}
       {% assign evo = false %}
-      {% for cat in post.categories %} <!-- Check all categories - a bit cumbersome, might look into shortening -->
+      {% for cat in post.categories %} {% comment %} Check all categories - a bit cumbersome, might look into shortening {% endcomment %}
          {% if cat == 'sticky' %}
             {% assign sticky = true %}
          {% endif %}
@@ -20,9 +20,9 @@ title: KEITH Evolution (2015)
             {% assign evo = true %}
          {% endif %}
       {% endfor %}
-      {% if evo %} <!-- Only show the article if it is meant to be part of the KEITH Evolution page -->
-         {% unless hidden %} <!-- Also only shows if article is not hidden -->
-            {% unless sticky %} <!-- Only show the article if it is not sticky -->
+      {% if evo %} {% comment %} Only show the article if it is meant to be part of the KEITH Evolution page {% endcomment %}
+         {% unless hidden %} {% comment %} Also only shows if article is not hidden {% endcomment %}
+            {% unless sticky %} {% comment %} Only show the article if it is not sticky {% endcomment %}
                <div class="post">
                   <h1 class="post-title">
                      <a href="{{ post.url }}">

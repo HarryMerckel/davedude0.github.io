@@ -16,7 +16,7 @@ title: Blog
          {% if cat == 'hidden' %}
             {% assign hidden = true %}
          {% endif %}
-         {% if cat == '2017' %}
+         {% if cat == 'K2017' %}
             {% assign K2017 = true %}
          {% endif %}
       {% endfor %}
@@ -36,7 +36,7 @@ title: Blog
 
                   <br>
                   <br>
-                  <p>If you haven't already, don't forget to subscribe to our <a href="http://eepurl.com/bwu2Cj"><b>mailing list</b></a> or follow us on Twitter <a href="http://www.twitter.com/{% site.twitter_username %}">@{% site.twitter_username %}</a> for updates on when new blog posts are live!</p>
+                  <p>If you haven't already, don't forget to subscribe to our <a href="http://eepurl.com/bwu2Cj"><b>mailing list</b></a> or follow us on Twitter <a href="http://www.twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a> for updates on when new blog posts are live!</p>
 
                   </div>
                {% endunless %}

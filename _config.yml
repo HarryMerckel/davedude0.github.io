@@ -12,6 +12,9 @@ github_username:  davedude0
 
 # Dependencies
 markdown:         kramdown
+gems:
+  - jekyll-sitemap
+  - jekyll-pagination
 
 # Permalinks
 permalink:        /post/:title

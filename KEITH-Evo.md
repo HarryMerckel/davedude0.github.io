@@ -3,7 +3,7 @@ layout: page
 title: KEITH Evolution (2015)
 ---
 
-This is an archive of the KEITH Evolution blog from 2015. For the current blog regarding next PiWars' entry, go here!
+This is an archive of the KEITH Evolution blog from 2015. For the current blog regarding next PiWars' entry, go [here]({{ site.blogurl }})!
 
 <div class="posts">
    {% for post in site.posts reversed %} {% comment %} Display posts in forward chronological order - no longer an active blog! {% endcomment %}

@@ -149,7 +149,7 @@ abbr[title] {
 
 /* Page navigation */
 .PageNavigation {
-  font-size: 14px;
+  /*font-size: 14px;*/
   display: block;
   width: auto;
   overflow: hidden;

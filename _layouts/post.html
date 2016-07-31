@@ -11,7 +11,7 @@
     <div class="content container">
 
 <div class="post">
-  {% if page.categories contains 'evo' %}<p><b><a href="/KEITH-Evo.html">Back to KEITH Evolution Blog Archive</a></b></p>{% endif %}
+  {% if page.categories contains 'evo' %}<b><a href="/KEITH-Evo.html">Back to KEITH Evolution Blog Archive</a></b>{% endif %}
   <div class="PageNavigation">
     {% if page.previous.url %}
       <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
@@ -19,13 +19,15 @@
     {% if page.next.url %}
       <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
     {% endif %}
+    <br />
   </div>
+
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
 
   {{ content }}
 
-
+  <br />
   <p>If you haven't already, don't forget to subscribe to our <a href="http://eepurl.com/bwu2Cj"><b>mailing list</b></a> or follow us on Twitter <a href="http://www.twitter.com/{{ site.twitter_username }}"><b>@{{ site.twitter_username }}</b></a> for updates on when new blog posts are live!</p>
   <div class="PageNavigation">
     {% if page.previous.url %}

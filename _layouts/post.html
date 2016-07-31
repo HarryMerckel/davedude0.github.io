@@ -19,9 +19,10 @@
     {% if page.next.url %}
       <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
     {% endif %}
-    <br />
   </div>
 
+  <br />
+  <br />
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
 
@@ -29,6 +30,7 @@
 
   <br />
   <p>If you haven't already, don't forget to subscribe to our <a href="http://eepurl.com/bwu2Cj"><b>mailing list</b></a> or follow us on Twitter <a href="http://www.twitter.com/{{ site.twitter_username }}"><b>@{{ site.twitter_username }}</b></a> for updates on when new blog posts are live!</p>
+  <br />
   {% if page.categories contains 'evo' %}
   <b><a href="/KEITH-Evo.html">Back to KEITH Evolution Blog Archive</a></b>
   {% endif %}
@@ -41,24 +43,7 @@
     {% endif %}
   </div>
 </div>
-{% comment %} <!--
-<div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
-      <li>
-        <h3>
-          <a href="{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
-          </a>
-        </h3>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
---> {% endcomment %}
-    </div>
 
+    </div>
   </body>
 </html>

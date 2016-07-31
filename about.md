@@ -24,4 +24,5 @@ This website is powered by <a href="https://jekyllrb.com/">Jekyll</a> using the 
 ## Contact us!
 
 It's probably easiest to contact us via email, <{{ site.email }}>, or on Twitter - <a href="http://www.twitter.com/{{ site.twitter_username }}"><b>@{{ site.twitter_username }}</b></a> (Main KEITH account), <a href="http://www.twitter.com/davedude0"><b>@davedude0</b></a> (Harry, programming and circuitry) and <a href="http://www.twitter.com/andyrmerckel"><b>@andyrmerckel</b></a> (CAD, engineering, financing!)
+
 If you haven't already, don't forget to subscribe to our <a href="http://eepurl.com/bwu2Cj"><b>mailing list</b></a> or follow us on Twitter <a href="http://www.twitter.com/{{ site.twitter_username }}"><b>@{{ site.twitter_username }}</b></a> for updates on when new blog posts are live!

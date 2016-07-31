@@ -5,9 +5,9 @@ title: KEITH Evolution (2015)
 
 This is an archive of the KEITH Evolution blog from 2015. Each post has links to the next and previous posts!
 
-[![KEITH Evolution (2015)](http://keiththerobot.uk/images/Evo-winner-web.jpg "KEITH Evolution (2015)")](http://keiththerobot.uk/images/Evo-winner.png)
-
 For information regarding our upcoming PiWars entry (when we get started!), please head over to the [<b>main blog</b>]({{ site.blogurl }}).
+
+[![KEITH Evolution (2015)](http://keiththerobot.uk/images/Evo-winner-web.jpg "KEITH Evolution (2015)")](http://keiththerobot.uk/images/Evo-winner.png)
 
 <div class="posts">
    {% for post in site.categories.evo reversed %} {% comment %} Display posts in forward chronological order - no longer an active blog! {% endcomment %}

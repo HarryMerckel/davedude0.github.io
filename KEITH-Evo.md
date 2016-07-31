@@ -5,7 +5,7 @@ title: KEITH Evolution (2015)
 
 This is an archive of the KEITH Evolution blog from 2015. Each title is a link to the post.
 
-For information regarding our next PiWars entry, head over to the [blog]({{ site.blogurl }})!
+For information regarding our next PiWars entry, head over to the [<b>blog</b>]({{ site.blogurl }})!
 
 <div class="posts">
    {% for post in site.categories.evo reversed %} {% comment %} Display posts in forward chronological order - no longer an active blog! {% endcomment %}

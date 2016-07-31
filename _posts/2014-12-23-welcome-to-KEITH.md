@@ -18,6 +18,6 @@ If you haven't already, don't forget to subscribe to our <b><a href="http://eepu
 
 ### Don't forget to look at...
 
-* The <b><a href="/KEITH-Evo.html">KEITH Evolution Blog</a></b>, sharing the latest news and information about his development
+* The <b><a href="/KEITH-Evo.html">KEITH Evolution Blog Archive</a></b>
 * The <b><a href="/gallery.html">Gallery</a></b>, currently including pictures of all of the KEITH iterations up to MK5
 * The <b><a href="/about.html">About</a></b> page, a brief overview of KEITH and the website.

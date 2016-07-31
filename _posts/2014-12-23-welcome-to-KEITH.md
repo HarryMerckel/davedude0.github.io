@@ -4,7 +4,7 @@ title: Welcome to the KEITH the Robot website!
 categories: [KEITH, sticky]
 ---
 
-![KEITH Evolution (2015)](http://keiththerobot.uk/images/Evo-winner.png "KEITH Evolution (2015)")
+[![KEITH Evolution (2015)](http://keiththerobot.uk/images/Evo-winner-web.jpg "KEITH Evolution (2015)")](http://keiththerobot.uk/images/Evo-winner.png)
 
 ### What will you see here?
 

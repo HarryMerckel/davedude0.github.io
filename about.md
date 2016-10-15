@@ -17,12 +17,16 @@ Have a look at the main post <a href="/KEITH-2014"><b>here</b></a> and at the <a
 
 For PiWars 2015 we developed a new robot, bigger and better in many ways than last year's - KEITH Evolution. You can see how we made KEITH Evo and how we got on in the competition (Very well!) at the <a href="/KEITH-Evo"><b>KEITH Evolution Blog Archive</b></a>.
 
+## KEITH 3 (Mostly Harmless)
+
+KEITH 3 (Mostly Harmless) will be our entry for PiWars 2017 (pushed back from December to April to make it better timing for everyone), and will feature improved tracks, electronics and code! We'll be posting updates on the <a href="/blog/"><b>main blog</b></a>.
+
 ## The website
 
-This website is powered by <a href="https://jekyllrb.com/">Jekyll</a> using the <a href="http://hyde.getpoole.com/">Hyde</a> layout. Jekyll is a blogging system that creates static HTML files from code and text content, and offers a lot of flexibility. I'm hosting this website using <a href="https://pages.github.com/">GitHub Pages</a>, which processes the Jekyll markdown and Liquid automatically and is completely free!
+This website is powered by <a href="https://jekyllrb.com/">Jekyll</a> using the <a href="http://hyde.getpoole.com/">Hyde</a> layout. Jekyll is a blogging system that creates static HTML files from code and text content, and offers a lot of flexibility. I'm hosting this website using <a href="https://pages.github.com/">GitHub Pages</a>, which processes the Jekyll markdown and Liquid code automatically and is completely free!
 
 ## Contact us!
 
-It's probably easiest to contact us via email, <{{ site.email }}>, or on Twitter - <a href="http://www.twitter.com/{{ site.twitter_username }}"><b>@{{ site.twitter_username }}</b></a> (Main KEITH account), <a href="http://www.twitter.com/davedude0"><b>@davedude0</b></a> (Harry, programming and circuitry) and <a href="http://www.twitter.com/andyrmerckel"><b>@andyrmerckel</b></a> (CAD, engineering, financing!)
+It's probably easiest to contact us via email, <{{ site.email }}>, or on Twitter - <a href="http://www.twitter.com/{{ site.twitter_username }}"><b>@{{ site.twitter_username }}</b></a> (Main KEITH account), <a href="http://www.twitter.com/davedude0"><b>@davedude0</b></a> (Harry, programming and electronics) and <a href="http://www.twitter.com/andyrmerckel"><b>@andyrmerckel</b></a> (CAD, engineering, financing!)
 
-If you haven't already, don't forget to subscribe to our <a href="http://eepurl.com/bwu2Cj"><b>mailing list</b></a> or follow us on Twitter <a href="http://www.twitter.com/{{ site.twitter_username }}"><b>@{{ site.twitter_username }}</b></a> for updates on when new blog posts are live!
+If you haven't already, don't forget to follow us on Twitter <a href="http://www.twitter.com/{{ site.twitter_username }}"><b>@{{ site.twitter_username }}</b></a> for updates on when new blog posts are live!

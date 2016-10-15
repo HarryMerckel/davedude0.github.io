@@ -8,7 +8,7 @@ title: Gallery
   Click the images for much larger, higher quality images.
 </p>
 
-## Current KEITH MK5 Images
+## KEITH MK5 Images
 KEITH MK5
 [![KEITH MK5](http://keiththerobot.uk/images/DSC04940-adjusted--web.jpg "KEITH MK5")](http://keiththerobot.uk/images/DSC04940-adjusted.jpg)
 KEITH MK5 Side

@@ -7,7 +7,7 @@ title: KEITH (2014)
 
 ### A little baby robot...
 
-KEITH MK1 started out as a Raspberry Pi with a PiRoCon motor control board, a HC-SR04 ultrasonic module, two cheap 6v DC motors, an RC car battery and a Tamiya track set, base board and double gearbox.
+KEITH MK1 started out as a Raspberry Pi with a PiRoCon motor control board, a HC-SR04 ultrasonic module, two cheap 6v DC motors, an RC car battery and a Tamiya track set, base board and double gearbox. Control was through a Wiimote using its bluetooth to connect to the PI?
 ![KEITH MK1](http://keiththerobot.uk/images/MK1.JPG "KEITH MK1")
 
 Nothing too complicated happened at this stage of development but programming started to get the ultrasonic distance sensor working. To start with, I used code from <a href="https://github.com/chrisalexander/initio-pirocon-test/blob/master/sonar.py">here</a> which sends out a pulse to the ultrasonic sensor, then times how long that pulse takes to get back. This time, when used with the speed of sound, can give you a fairly accurate reading of how far away any object is.
@@ -28,5 +28,8 @@ The new track layout meant that turning was a lot faster as there was no longer 
 
 MK3 was the first iteration of KEITH with a proper chassis, which was made out of 3mm plywood and cut with a jigsaw... Needless to say, it wasn't quite a masterpiece yet, but it certainly did the job until we could get the MK4 chassis laser cut.
 
+The patterns for the new chassis parts were created using AutoCad - a programme used by Dad at work. We happened to be going to a Makerfest in Halifax and of the exhibitors was a local company selling laser cutters. They advertised that they would cut parts for free if files were in .dxf format. So we took a memory stick with us and came away with a full set parts ready to go! The accuracy of our MK  made a huge difference and we were able to refine the chassis to fit everthing in and start to work out how to make things accessible. Space in this little bot was tight!
+
+MK  was our final iteration and had a removeable top to allow the battery to be removed without disturbing the nest of wires. By this time, KEITH sported a line following sensor, wheel encoders and a number of leds, including one laser... 
 
 <a href="http://www.raspberrypi.org">Raspberry Pi</a> is a trademark of the Raspberry Pi Foundation.

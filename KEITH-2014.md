@@ -40,7 +40,11 @@ The patterns for the new MK4 chassis parts were created using AutoCad - a progra
 
 ![KEITH MK4](http://keiththerobot.uk/images/MK4.JPG "KEITH MK4")
 
+### Putting It All Together
+
 MK5  was our final iteration and had a removeable top to allow the battery to be removed without disturbing the nest of wires. By this time as well as the ultrasonic sensor on the front, KEITH sported a line following sensor, wheel encoders and a number of leds, including one laser... The camera remained but was not needed for PiWars. We also created a couple of attachments that fitted onto the front of KEITH for two of the challenges.
+
+![KEITH MK5](http://keiththerobot.uk/images/MK4.JPG "KEITH MK5")
 
 ### PIWARS 2014
 

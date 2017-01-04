@@ -54,6 +54,48 @@ MK5  was our final iteration and had a removeable top to allow the battery to be
 
 ### PIWARS 2014
 
-This competition took place on * December 2014 in Cambridge. 
+This competition took place on 4 December 2014 in Cambridge. On the day there were 21 competing teams. The event consisted of 7 physical challenges and 4 judged. Points were awarded for performance in each challenge with bonuses awarded for completing some challenges autonomously.
+
+### 1. ROBOT GOLF
+
+AIM: Collect a ball from the spot and move it forwards then push it through a mousehole in the wall. Timed. Remote control.
+
+RESULT: Attachment to collect and hold ball worked well, catapult not so good. 8th out of 16 competitors.
+
+### 2. PROXIMITY
+
+AIM: Move from a point towards a wall and stop as close to it as possible. Penalties for touching the wall. Autonomous.
+
+RESULT: Two good runs and one where KEITH turned and one corner touched the wall. 9th out of 16 competitors.
+
+### 3. STRAIGHT LINE SPEED TEST
+
+AIM: To run along a 7m long course as fast as possible without touching the sides. Controlled or autonomous.
+
+RESULT: Three decent autonomous runs. 3rd out of 18 competitors.
+
+### 4. THREE POINT TURN
+
+AIM: To carry out a three point turn, passing fixed points and returning to the original position. Timed. Autonomous.
+
+RESULT: Our most frustrating challenge! KEITH failed to do what he was programmed to do, twice! We incurred maximum penalties as a result. Having reset everything, KEITH proceeded to do a perfect run (ADD YOUTUBE LINK). 13th out of 13 competitors.
+
+### 5. OBSTACLE COURSE
+
+AIM: To traverse a series of obstacles. Timed. Controlled.
+
+RESULT: More frustration! KEITH negotiated the pebbles without slowing, but failed to get over the wooden blocks. Harry tried several times before we realised that one drive wheel had slipped off its shaft and was not turning. We took the penalty and pushed the wheel back home. KEITH completed the slalom and see-saw without issue. 11th out of 20 competitors.
+
+### 6. LINE FOLLOWER
+
+AIM: 
+
+RESULT:
+
+### 7. SUMO
+
+AIM:
+
+RESULT:
 
 <a href="http://www.raspberrypi.org">Raspberry Pi</a> is a trademark of the Raspberry Pi Foundation.

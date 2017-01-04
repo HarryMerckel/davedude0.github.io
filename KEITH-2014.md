@@ -44,7 +44,13 @@ The patterns for the new MK4 chassis parts were created using AutoCad - a progra
 
 MK5  was our final iteration and had a removeable top to allow the battery to be removed without disturbing the nest of wires. By this time as well as the ultrasonic sensor on the front, KEITH sported a line following sensor, wheel encoders and a number of leds, including one laser... The camera remained but was not needed for PiWars. We also created a couple of attachments that fitted onto the front of KEITH for two of the challenges.
 
-![KEITH MK5](http://keiththerobot.uk/images/MK4.JPG "KEITH MK5")
+![KEITH MK5](http://keiththerobot.uk/images/DSC04940-adjusted-web.jpg "KEITH MK5")
+
+![KEITH MK5 BACK](http://keiththerobot.uk/images/DSC04938-adjusted-web.jpg "KEITH MK5 Back")
+
+![KEITH MK5 GOLF MODULE](http://keiththerobot.uk/images/DSC04942-adjusted-web.jpg "KEITH MK5 Golf Module")
+
+![KEITH MK5 SUMO MODULE](http://keiththerobot.uk/images/DSC04941-adjusted-web.jpg "KEITH MK5 Sumo Module")
 
 ### PIWARS 2014
 

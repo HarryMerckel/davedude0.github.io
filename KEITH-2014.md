@@ -7,7 +7,7 @@ title: KEITH (2014)
 
 ### A little baby robot...
 
-KEITH MK1 started out as a Raspberry Pi with a PiRoCon motor control board, a HC-SR04 ultrasonic module, two cheap 6v DC motors, an RC car battery and a Tamiya track set, base board and double gearbox. Control was through a Wiimote using its bluetooth to connect to the PI?
+KEITH MK1 started out as a Raspberry Pi with a PiRoCon motor control board, a HC-SR04 ultrasonic module, two cheap 6v DC motors, an RC car battery and a Tamiya track set, base board and double gearbox. Control was through a Wiimote using its bluetooth to connect to the PI.
 ![KEITH MK1](http://keiththerobot.uk/images/MK1.JPG "KEITH MK1")
 
 Nothing too complicated happened at this stage of development but programming started to get the ultrasonic distance sensor working. To start with, I used code from <a href="https://github.com/chrisalexander/initio-pirocon-test/blob/master/sonar.py">here</a> which sends out a pulse to the ultrasonic sensor, then times how long that pulse takes to get back. This time, when used with the speed of sound, can give you a fairly accurate reading of how far away any object is.
@@ -88,9 +88,9 @@ RESULT: More frustration! KEITH negotiated the pebbles without slowing, but fail
 
 ### 6. LINE FOLLOWER
 
-AIM: 
+AIM: To follow a black line on a white background and to complete as many laps as possible in a set time. Autonomous.
 
-RESULT:
+RESULT
 
 ### 7. SUMO
 

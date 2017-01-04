@@ -42,7 +42,7 @@ The patterns for the new MK4 chassis parts were created using AutoCad - a progra
 
 ### Putting It All Together
 
-MK5  was our final iteration and had a removeable top to allow the battery to be removed without disturbing the nest of wires. By this time as well as the ultrasonic sensor on the front, KEITH sported a line following sensor, wheel encoders and a number of leds, including one laser... The camera remained but was not needed for PiWars. We also created a couple of attachments that fitted onto the front of KEITH for two of the challenges.
+MK5  was our final iteration and had a removeable top to allow the battery to be removed without disturbing the nest of wires. By this time as well as the ultrasonic sensor on the front, KEITH sported a line following sensor, wheel encoders, a capacitance switch (emergency stop!) and a selection of leds, including one laser... The camera remained but was not needed for PiWars. We also created a couple of attachments that fitted onto the front of KEITH for two of the challenges, one using servos to operate a ball-catcher and catapult.
 
 ![KEITH MK5](http://keiththerobot.uk/images/DSC04940-adjusted--web.jpg "KEITH MK5")
 
@@ -54,6 +54,6 @@ MK5  was our final iteration and had a removeable top to allow the battery to be
 
 ### PIWARS 2014
 
-
+This competition took place on * December 2014 in Cambridge. 
 
 <a href="http://www.raspberrypi.org">Raspberry Pi</a> is a trademark of the Raspberry Pi Foundation.

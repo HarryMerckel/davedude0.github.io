@@ -90,12 +90,36 @@ RESULT: More frustration! KEITH negotiated the pebbles without slowing, but fail
 
 AIM: To follow a black line on a white background and to complete as many laps as possible in a set time. Autonomous.
 
-RESULT
+RESULT: KEITH was accurate and steady producing five clean laps. Not as fast as a couple of others. 3rd out of 8 competitors.
 
 ### 7. SUMO
 
-AIM:
+AIM: To push another robot of the arena.
 
-RESULT:
+RESULT: We had a series of 'byes' and by the time we got to compete we were up against winners of previous rounds that were much bigger than KEITH? We lost quickly!
+
+### 8. CODE QUALITY
+
+Harry's code was submitted for assessment and was judged on quality and structure. KEITH was judged to be 7= out of 19 competitors.
+
+### 9. AESTHETICS
+
+This was a subjective judgement and KEITH was 12th out of 24 robots judged.
+
+### 10. MOST INNOVATIVE AND 11. MOST FEATURE RICH
+
+Results for these two categories were not published...
+
+### OVERALL RESULTS
+
+BEST AUTONOMOUS ROBOT: 3rd of 21 robots.
+
+BEST REMOTE-CONTROLLED ROBOT: 13th of 21 robots.
+
+BEST ROBOT OVER £75: 3rd of 10 robots.
+
+### CONCLUSIONS
+
+We had a mixed bag of results with some very good events and a couple of disappointments. We thought that our main problem was being consistent and reliable. However, third in the autonomous challenges and third in class overall was, we thought, a very respectable result for our first robot and first competition.
 
 <a href="http://www.raspberrypi.org">Raspberry Pi</a> is a trademark of the Raspberry Pi Foundation.

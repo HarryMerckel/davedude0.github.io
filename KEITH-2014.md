@@ -42,7 +42,7 @@ The patterns for the new MK4 chassis parts were created using AutoCad - a progra
 
 ### Putting It All Together
 
-MK5  was our final iteration and had a removeable top to allow the battery to be removed without disturbing the nest of wires. By this time as well as the ultrasonic sensor on the front, KEITH sported a line following sensor, wheel encoders, a capacitance switch (emergency stop!) and a selection of leds, including one laser... The camera remained but was not needed for PiWars. the motors/gearbox was tilted back to create enough space to put a small circuit board in with an expansion chip so that the leds could be operated through just two gpio pins on the PI? We also created a couple of attachments that fitted onto the front of KEITH for two of the challenges, one using servos to operate a ball-catcher and catapult.
+MK5  was our final iteration and had a removeable top to allow the battery to be removed without disturbing the nest of wires. By this time as well as the ultrasonic sensor on the front, KEITH sported a line following sensor, wheel encoders, a capacitance switch (emergency stop!) and a selection of leds, including one laser... The camera remained but was not needed for PiWars. the motors/gearbox was tilted back to create enough space to put a small circuit board in with an expansion chip so that the leds could be operated through just two gpio pins on the Pi. We also created a couple of attachments that fitted onto the front of KEITH for two of the challenges, one using servos to operate a ball-catcher and catapult.
 
 ![KEITH MK5](http://keiththerobot.uk/images/DSC04940-adjusted--web.jpg "KEITH MK5")
 

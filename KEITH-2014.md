@@ -32,7 +32,7 @@ MK3 was the first iteration of KEITH with a proper chassis, which was made out o
 
 ### Lasers!
 
-The patterns for the new MK4 chassis parts were created using AutoCad - a programme used by Dad at work. We happened to be going to a Makerfest in Halifax and one of the exhibitors was a local company selling laser cutters. They advertised that they would cut parts for free if files were in .dxf format (the cad direct exchange format). So we took a memory stick with us and came away with a full set parts ready to go! The accuracy of our MK4 chassis  made a huge difference and we were able to start to refine the chassis to fit everything in and work out how to make things accessible. Space in this little bot was tight!
+The patterns for the new MK4 chassis parts were created using AutoCad - a programme used by Dad at work. We happened to be going to a Makerfair in Halifax and one of the exhibitors was a local company selling laser cutters. They advertised that they would cut parts for free if files were in .dxf format (the cad direct exchange format). So we took a memory stick with us and came away with a full set parts ready to go! The accuracy of our MK4 chassis  made a huge difference and we were able to start to refine the chassis to fit everything in and work out how to make things accessible. Space in this little bot was tight!
 
 ![KEITH MK4 Schematic](http://keiththerobot.uk/images/Mk4-schematic.JPG "KEITH MK4 Schematic")
 
@@ -42,7 +42,7 @@ The patterns for the new MK4 chassis parts were created using AutoCad - a progra
 
 ### Putting It All Together
 
-MK5  was our final iteration and had a removeable top to allow the battery to be removed without disturbing the nest of wires. By this time as well as the ultrasonic sensor on the front, KEITH sported a line following sensor, wheel encoders, a capacitance switch (emergency stop!) and a selection of leds, including one laser... The camera remained but was not needed for PiWars. We also created a couple of attachments that fitted onto the front of KEITH for two of the challenges, one using servos to operate a ball-catcher and catapult.
+MK5  was our final iteration and had a removeable top to allow the battery to be removed without disturbing the nest of wires. By this time as well as the ultrasonic sensor on the front, KEITH sported a line following sensor, wheel encoders, a capacitance switch (emergency stop!) and a selection of leds, including one laser... The camera remained but was not needed for PiWars. the motors/gearbox was tilted back to create enough space to put a small circuit board in with an expansion chip so that the leds could be operated through just two gpio pins on the PI? We also created a couple of attachments that fitted onto the front of KEITH for two of the challenges, one using servos to operate a ball-catcher and catapult.
 
 ![KEITH MK5](http://keiththerobot.uk/images/DSC04940-adjusted--web.jpg "KEITH MK5")
 

@@ -9,6 +9,7 @@ Our new tracks and running gear arrived from China in double-quick time and as s
 
 Smart Wheels!
 ![Smart!](http://keiththerobot.uk/images/Smartwheels.JPG "Smart!")
+![Smart!](http://keiththerobot.uk/images/IMG_0831a.jpg "Smart!")
 
 The tracks, as we feared when we ordered them, are a hard plastic. They are manufactured for one of the radio-control tanks on the market and work extremely well on soft surfaces (carpet, dirt etc) but they slide on hard smooth surfaces. Not what we want for PiWars! That said, they are better than the Vex tracks used last year in that respect. We have a few ideas about how to add grip and will be trying those out in due course.
 

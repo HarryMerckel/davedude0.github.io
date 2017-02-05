@@ -8,7 +8,7 @@ categories: [KEITH, K2017]
 Our new tracks and running gear arrived from China in double-quick time and as soon as they did we were straight on to designing a rough chassis to fit them to and to get testing. This was done in double quick time and the parts were cut by the Tech teacher at Harry's school. A happy evening with tacky pva glue, clamps, a spanner and Allen keys led to a sleeker version of KEITH than we had previously seen. The wheels from China consist of two stainless steel 'rims' with spacers between. The drive cogs bolt to hex hubs which fit the motors. The free-running wheels have bearings on each side and run on bolt axles. I modified the hex hubs to reduce the overall width of the assembly (deft use of the Dremel to chop out unwanted bits of brass!) to ensure that everything fits within the 225mm width limit.
 
 Smart Wheels!
-![Smart!](http://keiththerobot.uk/images/Smartwheels.JPG "Smart!")
+[comment]: # ![Smart!](http://keiththerobot.uk/images/Smartwheels.JPG "Smart!")
 ![Smart!](http://keiththerobot.uk/images/IMG_0831a.jpg "Smart!")
 
 The tracks, as we feared when we ordered them, are a hard plastic. They are manufactured for one of the radio-control tanks on the market and work extremely well on soft surfaces (carpet, dirt etc) but they slide on hard smooth surfaces. Not what we want for PiWars! That said, they are better than the Vex tracks used last year in that respect. We have a few ideas about how to add grip and will be trying those out in due course.

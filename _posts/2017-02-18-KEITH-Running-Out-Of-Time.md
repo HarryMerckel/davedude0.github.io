@@ -25,6 +25,6 @@ KEITH3 (Mostly Harmless)
 
 As ever, help comes from unexpected quarters. Harry had an interview at a university today and came out with tips on robot control from a computer science professor!
 
-p.s. If this post works, it will be a first for this 53yr old without help from his 17yr old? There may be hope for me yet!
+p.s. If this post works, it will be a first for this 53yr old without help from his 17yr old! There may be hope for me yet!
 
 Andy

@@ -22,7 +22,8 @@ Control Board
 ![Control Board](http://keiththerobot.uk/images/IMG_0858.JPG "Control Board")
 
 LED Boards
-![LED Boards](http://keiththerobot.uk/images/IMG_0866.JPG "LED Boards")(http://keiththerobot.uk/images/IMG_0860.JPG "LED Boards")
+![LED Boards](http://keiththerobot.uk/images/IMG_0866.JPG "LED Boards")
+![LED Boards](http://keiththerobot.uk/images/IMG_0860.JPG "LED Boards")
 
 Harry has also produced a few bits and pieces for KEITH3 on his 3D printer. It's a Tevo Tarantula and considering the kit 'only' cost around £200 he has nurtured and coaxed it to produce some very acceptable components. It continues to amuse me that he uses it to print upgrade parts for itself...
 

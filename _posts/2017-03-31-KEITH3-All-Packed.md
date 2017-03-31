@@ -11,6 +11,8 @@ KEITH3
 
 KEITH 3, KEITH Evo and KEITH (the original 2014 PiWars entrant)plus a few spares, tools and chargers are all packed up. We're ready for an early start tomorrow morning and the 150 mile run down the A1 to Cambridge. We are now looking forward to the weekend (as opposed to being anxious about it a week ago!). It will be good to see old friends/adversaries and meet new people too. One of the lovely things about PiWars, and the Raspberry Pi community in general, is the friendliness and willingness to help. As Dave (with Xbot) says, everyone who has produced a robot and makes it to the competition is already a champion. Prizes are great, of course, but I hope that all of the new teams take home the desire to do it all again, as we did in 2014 and 2015.
 
+Finally, before the competition, a big thank you to Mike, Tim and their merry band who all work so hard to put this event on. If they are looking frazzled over the weekend, make sure you show your appreciation!
+
 See you there!
 
 Andy and Harry

@@ -10,7 +10,7 @@ The removal of the top involves a single screw and careful seperation of numerou
 
 ![KEITH Evo Insides](http://keiththerobot.uk/images/evo-insides.jpg "INSIDES")
 
-Once the control boards were out, the numerous LEDs and lasers were visible. They will stay in place for now, as will the line-follower sensor in the base of the robot. The wheel sensors won't be needed again. We're intending to replace the motors too so theoriginals have been removed. They may return...
+Once the control boards were out, the numerous LEDs and lasers were visible. They will stay in place for now, as will the line-follower sensor in the base of the robot. The wheel sensors won't be needed again. We're intending to replace the motors too so the originals have been removed. They may return...
 
 ![KEITH Evo Sensors](http://keiththerobot.uk/images/evo-sensors.jpg "Sensors")
 

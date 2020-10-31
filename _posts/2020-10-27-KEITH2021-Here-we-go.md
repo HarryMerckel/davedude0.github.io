@@ -28,7 +28,7 @@ There was then much discussion over a few beers (the joys of a 21yr old son!) ab
 - We don't have access to a laser cutter.
 - We're both working (Harry on a year in industry, working from home most of the time) so no exam pressures, for once.
           
-We knew we didn't want to use a commercial robot chassis and building a new one from scratch, in the style of the earlier KEITHs, is not a practical option. So, after much soul-searching, we decided to update, up-cycle, re-purpose and otherwise sacrifice our prize-winning robot from PiWars 2015, KEITH Evo. THe next installment will start to describe the processes for bring KEITH Evo up to date and making him competition ready. But what will we call him?...
+We knew we didn't want to use a commercial robot chassis and building a new one from scratch, in the style of the earlier KEITHs, is not a practical option. So, after much soul-searching, we decided to update, up-cycle, re-purpose and otherwise sacrifice our prize-winning robot from PiWars 2015, KEITH Evo. The next installment will start to describe the processes for bring KEITH Evo up to date and making him competition ready. But what will we call him?...
 
 Family Portrait
 ![Family Portrait](http://keiththerobot.uk/images/IMG_0915.JPG "Family Portrait")

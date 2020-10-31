@@ -6,11 +6,11 @@ categories: [KEITH, K2021]
 
 For those who don't know us, our PiWars team is a father/son combo, Andy and Harry. We entered the first Piwars in 2014 when Harry was a keen but inexperienced 15yr old coder with a home-brewed robot called KEITH (Kinetic Electronic Interactive Tracked Hardware). 
 
-![KEITH](http://keiththerobot.uk/images/DSC04940-adjusted--web.jpg "KEITH MK5")](http://keiththerobot.uk/images/DSC04940-adjusted.jpg)
+![KEITH](http://keiththerobot.uk/images/DSC04940-adjusted--web.jpg "KEITH")
 
 Having had a huge amount of fun and some success we entered again in 2015 with KEITH Evo, a larger and much better built robot. We won the 'A4' size category coming second overall to the 'A3' winner and legend that is Brian Corteil.
 
-![Winner!](http://keiththerobot.uk/images/Evo-winner.png "Winner!")
+![Winner!](http://keiththerobot.uk/images/Evo-winner.png "KEITH Evo - Winner!")
 
 The 2017 competition was contested using KEITH 3 (Mostly Harmless). A good looking beast, KEITH 3 didn't perform as successfully as KEITH Evo despite being stronger, faster etc. He didn't disgrace himself, but clearly the competition had stepped up! 
 
@@ -29,3 +29,6 @@ There was then much discussion over a few beers (the joys of a 21yr old son!) ab
 - We're both working (Harry on a year in industry, working from home most of the time) so no exam pressures, for once.
           
 We knew we didn't want to use a commercial robot chassis so, after much soul-searching, we decided to update, up-cycle, re-purpose and otherwise sacrifice our prize-winning robot from PiWars 2015, KEITH Evo. THe next installment will start to describe the processes for bring KEITH Evo up to date and making him competition ready. But what will we call him?...
+
+Family Portrait
+![Family Portrait](http://keiththerobot.uk/images/IMG_0915.JPG "Family Portrait")

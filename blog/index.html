@@ -5,18 +5,21 @@ title: Blog - KEITH 2021
 
 <h1>KEITH 2021 Blog</h1>
 
-<p>Welcome to the KEITH 2021 blog! This blog is for the <a href="https://piwars.org/2021-vpw/">PiWars at Home</a> competition</p>
+<p>Welcome to the KEITH 2021 blog! This blog is for the <strong><a href="https://piwars.org/2021-vpw/">PiWars at Home</a></strong> competition, which is taking place online with the main event happening on the 20th-21st March 2021</p>
 
-<p><div onclick="element.scrollIntoView({behavior: "smooth"})">Scroll to bottom</div></p>
+<p>Below you can find all the blog posts for this competition, starting with the earliest.</p>
+
+{% assign post = site.categories.K2021.first %}
+<p>Or, if you want to skip to our latest blog post, <strong><a href="{{ post.url }}">click here!</a></strong></p>
 
 <div class="posts">
    {% for post in site.categories.K2021 reversed %}
      <div class="post">
-        <h2 class="post-title">
+        <h3 class="post-title">
            <a href="{{ post.url }}">
               {{ post.title }}
            </a>
-        </h2>
+        </h3>
 
         <span class="post-date">{{ post.date | date_to_string }}</span>
 

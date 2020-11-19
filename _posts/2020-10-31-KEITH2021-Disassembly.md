@@ -6,7 +6,7 @@ categories: [KEITH, K2021]
 
 KEITH Evo ran earlier this year around the time of the Virtual PiWars event so we know his vital functions are working. We extracted him from his box again and got the tools out:
 
-The removal of the top involves a single screw and careful seperation of numerous tabs and a pair of hooks at the front. The only tings attached to the top were the distance sensor and the radio aerial. The first image shows the strip circuit that housed the voltage regulator, motor controls and numerous LED circuits. The Pi was mounted onto a hinged plate with the radio receiver and cannon servo below.
+The removal of the top involves a single screw and careful seperation of numerous tabs and a pair of hooks at the front. The only things attached to the top were the distance sensor and the radio aerial. The first image shows the strip circuit that housed the voltage regulator, motor controls and numerous LED circuits. The Pi was mounted onto a hinged plate with the radio receiver and cannon servo below.
 
 ![KEITH Evo Insides](http://keiththerobot.uk/images/evo-insides.jpg "INSIDES")
 

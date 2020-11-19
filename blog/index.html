@@ -5,7 +5,9 @@ title: Blog - KEITH 2021
 
 <h1>KEITH 2021 Blog</h1>
 
-<p>
+<p>Welcome to the KEITH 2021 blog! This blog is for the <a href="https://piwars.org/2021-vpw/">PiWars at Home</a> competition</p>
+
+<p onclick="element.scrollIntoView({behavior: "smooth"})">Scroll to bottom</p>
 
 <div class="posts">
    {% for post in site.categories.K2021 reversed %}
@@ -18,7 +20,9 @@ title: Blog - KEITH 2021
 
         <span class="post-date">{{ post.date | date_to_string }}</span>
 
-        {{ post.excerpt }}.. <strong><a href="{{ post.url }}">Read More</a></strong>
+        {{ post.excerpt }}
+        
+        <strong><a href="{{ post.url }}">... Read More</a></strong>
 
         <br>
 

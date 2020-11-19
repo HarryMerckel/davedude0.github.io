@@ -4,7 +4,7 @@ title: Blog - KEITH 2021
 ---
 
 <div class="posts">
-   {% for post in site.categories.K2021 %}
+   {% for post in site.categories.K2021 reversed %}
      <div class="post">
         <h1 class="post-title">
            <a href="{{ post.url }}">
@@ -14,30 +14,12 @@ title: Blog - KEITH 2021
 
         <span class="post-date">{{ post.date | date_to_string }}</span>
 
-        {{ post.content }}
+        {{ post.excerpt }}
 
         <br>
         <br>
         <p>Why not follow us on Twitter <a href="http://www.twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a> for the latest updates!</p>
 
       </div>
-   {% endfor %}
+   {% endfor %}4
 </div>
-{% comment %}
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.blogurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.blogurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.blogurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
-{% endcomment %}

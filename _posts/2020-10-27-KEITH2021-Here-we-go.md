@@ -4,7 +4,9 @@ title: Here We Go Again!
 categories: [KEITH, K2021]
 ---
 
-For those who don't know us, our PiWars team is a father/son combo, Andy and Harry. We entered the first Piwars in 2014 when Harry was a keen but inexperienced 15yr old coder with a home-brewed robot called KEITH (Kinetic Electronic Interactive Tracked Hardware). 
+For those who don't know us, our PiWars team is a father/son combo, Andy and Harry. We have built a series of robots called KEITH (Kinetic Electronic Interactive Tracked Hardware).
+
+We entered the first Piwars in 2014 when Harry was a keen but inexperienced 15yr old coder with athe first version of KEITH. 
 
 ![KEITH](http://keiththerobot.uk/images/DSC04940-adjusted--web.jpg "KEITH")
 

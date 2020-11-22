@@ -1,6 +1,6 @@
 # Site settings
 title: KEITH
-tagline: Blog for KEITH, a series Raspberry Pi powered robots for PiWars
+tagline: A blog about a series Raspberry Pi powered robots for PiWars
 email: blog@keiththerobot.uk
 description: > # this means to ignore newlines until "baseurl:" allowing a multiline description
   KEITH (Kinetic Electronic Interactive Tracked Hardware), a series of Raspberry Pi powered robots programmed and made by Harry and Andy Merckel.

@@ -2,6 +2,7 @@
 layout: post
 title: Disassembly...
 categories: [KEITH, K2021]
+image: http://keiththerobot.uk/images/evo-disassembled.jpg
 ---
 
 KEITH Evo ran earlier this year around the time of the Virtual PiWars event so we know his vital functions are working. It's time for some surgery...

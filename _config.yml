@@ -25,6 +25,6 @@ permalink:        /post/:title
 #paginate_category: "K2017"
 
 # Custom vars
-image: /images/KEITH-face-600px.jpg
+logo: /images/KEITH-face-600px.jpg
 github:
   repo:           https://github.com/HarryMerckel/

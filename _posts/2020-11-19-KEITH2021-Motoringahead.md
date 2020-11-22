@@ -2,6 +2,7 @@
 layout: post
 title: Motoring Ahead
 categories: [KEITH, K2021]
+image: http://keiththerobot.uk/images/k2021-motors.jpg
 ---
 
 In this post we look at our new motors and early thoughts on control. It’s a short post!

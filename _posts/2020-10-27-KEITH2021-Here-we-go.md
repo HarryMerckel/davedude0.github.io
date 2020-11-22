@@ -2,6 +2,7 @@
 layout: post
 title: Here We Go Again!
 categories: [KEITH, K2021]
+image: http://keiththerobot.uk/images/IMG_0915.JPG
 ---
 
 For those who don't know us, our PiWars team is a father/son combo, Andy and Harry. We have built a series of robots called KEITH (Kinetic Electronic Interactive Tracked Hardware).

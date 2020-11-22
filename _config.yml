@@ -26,5 +26,6 @@ permalink:        /post/:title
 
 # Custom vars
 logo: /images/KEITH-face-600px.jpg
+image: /images/KEITH-face-600px.jpg
 github:
   repo:           https://github.com/HarryMerckel/
